@@ -1,0 +1,55 @@
+Title,Author(s),Link
+Game theory and AI: a unified approach to poker games,Frans Oliehoek,http://fransoliehoek.net/docs/Oliehoek05MSc.pdf
+A Competitive Texas Hold’em Poker Player Via Automated Abstraction and Real-time Equilibrium Computation,"Andrew Gilpin, Tuomas Sandholm",https://www.aaai.org/Papers/AAAI/2006/AAAI06-158.pdf
+Approximating Game-Theoretic Optimal Strategies for Full-scale Poker,"D. Billings, N. Burch, A. Davidson, R. Holte, J. Schaeffer, T. Schauenberg, D. Szafron",http://webdocs.cs.ualberta.ca/~darse/Papers/IJCAI03.pdf
+"Superhuman AI for heads-up no-limit
+poker: Libratus beats top professionals","Noam Brown, Tuomas Sandholm",https://science.sciencemag.org/content/359/6374/418/tab-pdf
+Algorithm for optimal winner determination in combinatorial auctions,Tuomas Sandholm,https://www.sciencedirect.com/science/article/pii/S000437020100159X
+AI surpasses humans at six-player poker,"Alan Blair, Abdallah Saffidine",https://science.sciencemag.org/content/365/6456/864/tab-pdf
+AI Poker Agent based on Game Theory,"Dr. C. Nandini, Sachin Kumar, Laasya R",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9063819
+Application of AI in poker,Erwin Schuijtvlot,https://beta.vu.nl/nl/Images/werkstuk-schuijtvlot_tcm235-225501.pdf
+Libratus: The Superhuman AI for No-Limit Poker,"Noam Brown, Tuomas Sandholm",https://www.ijcai.org/Proceedings/2017/0772.pdf
+Poker as a Testbed for AI Research,"DarseBillings, DenisPapp, JonathanSchaeffer, DuaneSzafron",https://link.springer.com/chapter/10.1007/3-540-64575-6_53
+The challenge of poker,"Darse Billings, Aaron Davidson, Jonathan Schaeffer, Duane Szafron",https://www.sciencedirect.com/science/article/pii/S0004370201001308
+Opponent modeling in poker,"Darse Billings, Denis Papp, Jonathan Schaeffer, Duane Szafron",https://www.aaai.org/Papers/AAAI/1998/AAAI98-070.pdf
+Heads-up limit hold'em poker is solved,"Michael Bowling1, Neil Burch, Michael Johanson, Oskari Tammelin",https://science.sciencemag.org/content/347/6218/145/tab-pdf
+Algorithmic Game Theory and Artificial Intelligence,"Edith Elkind, Kevin Leyton-Brown",https://www.aaai.org/ojs/index.php/aimagazine/article/view/2310
+Optimal Rhode Island Hold'em Poker,"Andrew Gilpin, Tuomas Sandholm",https://www.aaai.org/Papers/AAAI/2005/ISD05-008.pdf
+Super-Human AI for Strategic Reasoning: Beating Top Pros in Heads-Up No-Limit Texas Hold'em,Tuomas Sandholm,https://www.ijcai.org/Proceedings/2017/0004.pdf
+Algorithm for optimal winner determination in combinatorial auctions,Tuomas Sandholm,https://www.sciencedirect.com/science/article/pii/S000437020100159X
+Winner determination in combinatorial auction generalizations,Tuomas Sandholm,https://dl.acm.org/doi/abs/10.1145/544741.544760
+COEVOLUTIONARY NASH IN POKER GAMES,"Frans Oliehoek, Nikos Vlassis, Edwin de Jong",https://www.fransoliehoek.net/docs/Oliehoek05BNAIC.pdf
+There Can be No Single Best Adaptive Poker AI,N Sweeny,https://d1wqtxts1xzle7.cloudfront.net/32426114/6486.pdf?1385573848=&response-content-disposition=inline%3B+filename%3DThere_Can_Be_No_Single_Best_Poker_AI.pdf&Expires=1602325124&Signature=X2ICLgltxEQo6ZLdyOj9zXxGkuLh3kLxpshU-kgNozhl511NmQVa16KPqC8C9O~eItDbqqSPGjvs-3N2-1XXl~jdkS0l4KyJ15O942ol~8pPfWaXNkWT-CkDDSOWnj34yYW8klv25Wg83eCubvVYCzpguNVRIK-uJBgHViC4zOm-7keGGkzbXGfpV~A5eldI8J8gOfnnA7kAZVFHyRsb0qeSN1eMoxHHiyDCvdU9xmiHv8poD07CfhCLpIEB7rRNVm~5AfkR5aVWjKKz22axqoQo2clnbbZeRmKulPqHGOjoarEHSB~EGnAzt9E3YMsPr083M8~fHdGQV-AzNvG1Tg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+"When Machine Learning Meets AI and Game
+Theory","Anurag Agrawal, Deepak Jaiswal",http://cs229.stanford.edu/proj2012/AgrawalJaiswal-WhenMachineLearningMeetsAIandGameTheory.pdf
+A Texas Hold'em poker player based on automated abstraction and real-time equilibrium computation,"Tuomas Sandholm, Andrew Gilpin",http://www.columbia.edu/~ck2945/files/s20_8100/lecture_note_2_gt_and_regret.pdf
+Smoothing Techniques for Computing Nash Equilibria of Sequential Games,"Samid Hoda, Andrew Gilpin, Javier Peña, Tuomas Sandholm",https://pubsonline.informs.org/doi/abs/10.1287/moor.1100.0452
+"Potential-aware Automated Abstraction of Sequential Games, and Holistic Equilibrium Analysis of Texas Hold'em Poker","Andrew Gilpin, Tuomas Sandholm, Troels Bjerre Sørensen",https://www.aaai.org/Papers/AAAI/2007/AAAI07-008.pdf
+Abstraction Methods for Game Theoretic Poker,"Jiefu Shi, Michael L.Littman",https://link.springer.com/chapter/10.1007/3-540-45579-5_22
+Game Theory-Based Opponent Modeling in Large Imperfect-Information Games,"Sam Ganzfried, Tuomas Sandholm",http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.385.6032&rep=rep1&type=pdf
+ALGORITHMS AND ASSESSMENT IN COMPUTER POKER,Darse Billings,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.462.1288&rep=rep1&type=pdf
+"The State of Solving Large Incomplete Information Games, and Application to Poker",Tuomas Sandholm,https://www.aaai.org/ojs/index.php/aimagazine/article/view/2311
+Moral Decision Making Frameworks for Artificial Intelligence,"Vincent Conitzer, Walter Sinnott-Armstrong, Jana Schaich Borg, Yuan Deng, Max Kramer",http://moralai.cs.duke.edu/documents/mai_docs/moralAAAI17.pdf
+Beyond Adversarial: The Case for Game AI as Storytelling,"David L. Roberts, Mark O. Riedl, Charles L. Isbell",https://people.engr.ncsu.edu/dlrober4/csc591f10/readings/roberts-2009.pdf
+"No limit: AI poker bot is first to beat professionals at multiplayer game
+Citation metadata",Douglas Heaven,https://go.gale.com/ps/anonymous?id=GALE%7CA593575976&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=00280836&p=AONE&sw=w
+Heads-up limit hold'em poker is solved,"Michael Bowling, Neil Burch, Michael Johanson, Oskari Tammelin",https://dl.acm.org/doi/abs/10.1145/3131284
+Solving Heads-up Limit Texas Hold'em,"Oskari Tammelin, Neil Burch, Michael Johanson, Michael Bowling",http://johanson.ca/publications/poker/2015-ijcai-cfrplus/2015-ijcai-cfrplus.pdf
+AI Wolf Contest — Development of Game AI Using Collective Intelligence,"Fujio Toriumi, Hirotaka OsawaMichimasa InabaDaisuke KatagamiKosuke ShinodaHitoshi Matsubara",https://link.springer.com/chapter/10.1007/978-3-319-57969-6_8
+Improved Opponent Modeling in Poker,"Aaron Davidson, Darse Billings, Jonathan Schaeer, Duane Szafron",http://webdocs.cs.ualberta.ca/~duane/publications/pdf/2000icai.pdf
+Monte-Carlo Tree Search: A New Framework for Game AI,"Guillaume Chaslot, Sander Bakkes, Istvan Szita, Pieter Spronck",https://www.aaai.org/Papers/AIIDE/2008/AIIDE08-036.pdf
+AI takes on top poker players,Timothy Revell,https://www.sciencedirect.com/science/article/abs/pii/S0262407917301057
+High-Level Language to Build Poker Agents,"Luís Paulo Reis, Pedro Mendes, Luís Filipe Teófilo, Henrique Lopes Cardoso",https://link.springer.com/chapter/10.1007/978-3-642-36981-0_59
+Behavioral Mathematics for Game AI,Dave Mark,https://books.google.com.hk/books?hl=en&lr=&id=GbQLAAAAQBAJ&oi=fnd&pg=PR11&dq=AI+and+poker+game&ots=wRh_brtF10&sig=1cWNj4BYMPPHzVXQvw_1l_kzk5Y&redir_esc=y#v=onepage&q=AI%20and%20poker%20game&f=false
+A Learning AI Algorithm for Poker with Embedded Opponent Modeling,"Seong-gon Kim, Yong-Gi Kim",http://www.dbpia.co.kr/pdf/pdfView?nodeId=NODE01526185
+Card Game Bluff Decision Aided System,"Jacek Mazurkiewicz, Mateusz Pawelec",https://link.springer.com/chapter/10.1007/978-3-030-48256-5_42
+Reality and Problem of AI in Poker Game: Focus on Texas Hold'em,"Han, Sukhee",https://www.koreascience.or.kr/article/JAKO201731063138335.page
+Opponent modelling for case-based adaptive game AI,"Sander C.J. Bakkes, Pieter H.M. Spronck, H. Jaap van den Herik",https://www.sciencedirect.com/science/article/pii/S1875952109000044
+Building a No Limit Texas Hold’em Poker Agent Based on Game Logs Using Supervised Learning,"Luís Filipe Teófilo, Luís Paulo Reis",https://link.springer.com/chapter/10.1007/978-3-642-21538-4_8
+Adaptive Game AI,Pieter Spronck,http://lecturer.ukdw.ac.id/~mahas/dossier/gameng_12_read.pdf
+"Bayes-Relational Learning of Opponent Models
+from Incomplete Information in No-Limit Poker","Marc Ponsen, Jan Ramon, Tom Croonenborghs, Kurt Driessens, Karl Tuyls",https://www.aaai.org/Papers/AAAI/2008/AAAI08-244.pdf
+Enhancing Animated Agents in an Instrumented Poker Game,"Marc Schröder, Patrick Gebhard, Marcela Charfuelan, Christoph Endres, Michael, KippSathish Pammi, Martin Rumpler, Oytun Türk",https://link.springer.com/chapter/10.1007/978-3-540-85845-4_39
+Smooth UCT Search in Computer Poker,"Johannes Heinrich, David Silver",https://www.davidsilver.uk/wp-content/uploads/2020/03/smooth_uct.pdf
+The geometry friends game AI competition,"R. Prada, P. Lopes, J. Catarino, J. Quitério, F. S. Melo",https://ieeexplore.ieee.org/abstract/document/7317949/
+AI Game Playing Techniques ,Dana S. Nau,https://www.aaai.org/ojs/index.php/aimagazine/article/view/1444
