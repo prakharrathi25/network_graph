@@ -1,0 +1,14 @@
+{
+  "name": "@jett/bubble-chart-split-my-running-by-year",
+  "main": "4313acec215d2def@531.js",
+  "version": "531.0.0",
+  "homepage": "https://observablehq.com/@jett/bubble-chart-split-my-running-by-year",
+  "author": {
+    "name": "Jett",
+    "url": "https://observablehq.com/@jett"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
