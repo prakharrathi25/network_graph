@@ -17,7 +17,7 @@ var svg = d3.select("body").append("svg")
     .attr("height", height);
 
 //Read the data from GoTbook1.json
-d3.json('final.json', function (data) {
+d3.json('data.json', function (data) {
     force.nodes(data.nodes)
         .links(data.links)
         .start();
@@ -37,7 +37,7 @@ d3.json('final.json', function (data) {
         .call(force.drag);
 
     node.append("circle")
-        .attr("r", function (d) { return d.size })
+        .attr("r", function (d) { return d.size/10 })
         .style("fill", function (d) {
             return color(d.group);
         })
