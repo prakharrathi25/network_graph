@@ -1,0 +1,23 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bar Chart Race, Explained</title>
+    <link rel="stylesheet" type="text/css" href="./inspector.css">
+</head>
+
+<body>
+    <!-- <script src="https://d3js.org/d3.v3.js"></script> -->
+    <!-- <script src='index.js'></script> -->
+    <script type="module">
+        import define from "./index.js";
+        import {Runtime, Library, Inspector} from "./runtime.js";
+
+        const runtime = new Runtime();
+        const main = runtime.module(define, Inspector.into(document.body));
+    </script>
+</body>
+
+</html>
