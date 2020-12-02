@@ -1,0 +1,27 @@
+{"nodes": [
+    {"name": "Keith Ross", "group": 1, "nodesize": 289.06}, 
+    {"name": "Foster Provost", "group": 1, "nodesize": 248.41}, 
+    {"name": "Yevgeniy Dodis", "group": 1, "nodesize": 171.19}, 
+    {"name": "Yong Liu", "group": 1, "nodesize": 86.94}, 
+    {"name": "Romain", "group": 1, "nodesize": 3.89}, 
+    {"name": "Shuyang Ling", "group": 1, "nodesize": 5.78}, 
+    {"name": "Enric Junque", "group": 1, "nodesize": 6.5}, 
+    {"name": "Zhibin Chen", "group": 1, "nodesize": 5.17}, 
+    {"name": "Gus Xia", "group": 1, "nodesize": 2.58}, 
+    {"name": "Ratan Dey", "group": 1, "nodesize": 4.88}, 
+    {"name": "Xianbin Gu", "group": 1, "nodesize": 0.35}, 
+    {"name": "Siyao Guo", "group": 1, "nodesize": 3.83}, 
+    {"name": "Oliver Marin", "group": 1, "nodesize": 12.6}, 
+    {"name": "Zheng Zhang", "group": 1, "nodesize": 95.87}, 
+    {"name": "Bruno Abrahao", "group": 1, "nodesize": 6.98}], 
+"links": [
+    {"source": "Yong Liu", "target": "Keith Ross", "value": 90}, 
+    {"source": "Ratan Dey", "target": "Keith Ross", "value": 5}, 
+    {"source": "Keith Ross", "target": "Yong Liu", "value": 20}, 
+    {"source": "Ratan Dey", "target": "Yong Liu", "value": 30}, 
+    {"source": "Foster Provost", "target": "Enric Junque", "value": 100}, 
+    {"source": "Keith Ross", "target": "Ratan Dey", "value": 30}, 
+    {"source": "Yong Liu", "target": "Ratan Dey", "value": 65}, 
+    {"source": "Yevgeniy Dodis", "target": "Siyao Guo", "value": 10}
+    ]
+}
