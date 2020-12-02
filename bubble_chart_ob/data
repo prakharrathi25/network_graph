@@ -1,0 +1,19 @@
+year,size,distance,title
+2016,2,89,On the hardness of learning with rounding over small modulus
+2017,3,34,"Fixing cracks in the concrete: Random oracles with auxiliary input, revisited"
+2014,2,32,Candidate weak pseudorandom functions in AC0 ○ MOD2
+2014,5,32,Rational arguments: single round delegation with sublinear verification
+2018,2,28,Random oracles and non-uniformity
+2015,3,27,The power of negations in cryptography
+2016,2,25,Rational sumchecks
+2018,2,24,Non-malleable codes for small-depth circuits
+2016,10,24,Threshold secret sharing requires a linear size alphabet
+2018,2,13,"Non-uniform bounds in the random-permutation, ideal-cipher, and generic-group models"
+2019,2,12,Non-malleable codes for decision trees
+2019,5,12,Testing -Monotonicity: The Rise and Fall of Boolean Functions
+2013,4,10,Sparse extractor families for all the entropy
+2017,3,9,Negation-limited formulas
+2020,2,5,Data structures meet cryptography: 3SUM with preprocessing
+2018,1,5,Optimal deterministic extractors for generalized Santha-Vazirani sources
+2020,3,1,Tight Quantum Time-Space Tradeoffs for Function Inversion
+2020,2,1,Limits on the Efficiency of (Ring) LWE Based Non-interactive Key Exchange

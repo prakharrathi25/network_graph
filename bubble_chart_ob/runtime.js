@@ -25,10 +25,13 @@ function t(e) {
 function n(e) {
   return e === (0 | e) + "";
 }
+// HERE
 function r(e) {
   const t = document.createElement("span");
   return (
-    (t.className = "observablehq--cellname"), (t.textContent = e + " = "), t
+    (t.className = "observablehq--cellname"),
+    //(t.textContent = e + " = "),
+    t
   );
 }
 const i = Symbol.prototype.toString;
@@ -517,11 +520,16 @@ function oe(e, t, n, i, a) {
           return (n ? w : O)(e, t, i, a);
       }
   }
+  // HERE
   var l;
   const c = document.createElement("span");
   i && c.appendChild(r(i));
   const d = c.appendChild(document.createElement("span"));
-  return (d.className = "observablehq--" + s), (d.textContent = e), c;
+  return (
+    (d.className = "observablehq--" + s),
+    //(d.textContent = e),
+    c
+  );
 }
 // function ae(t, n) {
 //   t.classList.contains("observablehq--inspect") &&

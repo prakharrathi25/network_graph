@@ -1,3 +1,9 @@
+// STUFF TO WORK ON
+// 1. it is taking very long for the paper title text box to show up
+// 2. legend circle not in the right place and size is off
+// 3. do we need legend for color scale?
+// 4. currently the color is a bit too light for smaller numbers
+
 // https://observablehq.com/@jett/bubble-chart-split-my-running-by-year@531
 export default function define(runtime, observer) {
   const main = runtime.module();
@@ -39,7 +45,7 @@ export default function define(runtime, observer) {
       const form = html`<form>
         <label
           ><input name="split" type="radio" value="0" checked />
-          <small>All throws</small></label
+          <small>All citations</small></label
         >
         <label
           ><input name="split" type="radio" value="1" />
@@ -124,15 +130,80 @@ export default function define(runtime, observer) {
         // Add median text
         const medianText = wrapper
           .append("text")
-          .attr("x", x(median) - 90)
-          .attr("y", 25)
-          .attr("font-size", "11px")
-          .text("Median distance");
+          .attr("x", x(median) - 60)
+          .attr("y", 20)
+          .attr("font-size", "15px")
+          .text("Median times cited");
 
         // add yAxis
         const yAxisContainer = wrapper
           .append("g")
           .attr("transform", `translate(-10,0)`);
+
+        // add legend circles
+        // circles
+        const valuesToShow = [1, 2, 10];
+        const xCircle = -40;
+        const xLabel = 0;
+        const z = d3
+          .scaleSqrt()
+          //.domain([0, d3.max(d, (d) => d.distance)])
+          .domain(d3.extent(throwing, (d) => d.size))
+          .range([2, 30]);
+        const legendCircles = wrapper
+          .selectAll("legend")
+          .data(valuesToShow)
+          .enter()
+          .append("circle")
+          .attr("cx", xCircle)
+          .attr("cy", function (d) {
+            return noSplitHeight - 100 - z(d);
+          })
+          .attr("r", function (d) {
+            return d;
+          })
+          .style("fill", "none")
+          .attr("stroke", "black");
+        // segments
+        const legendSegments = wrapper
+          .selectAll("legend")
+          .data(valuesToShow)
+          .enter()
+          .append("line")
+          .attr("x1", function (d) {
+            return xCircle + z(d);
+          })
+          .attr("x2", xLabel)
+          .attr("y1", function (d) {
+            return noSplitHeight - 100 - z(d);
+          })
+          .attr("y2", function (d) {
+            return noSplitHeight - 100 - z(d);
+          })
+          .attr("stroke", "black")
+          .style("stroke-dasharray", "2,2");
+        // labels
+        const legendLabels = wrapper
+          .selectAll("legend")
+          .data(valuesToShow)
+          .enter()
+          .append("text")
+          .attr("x", xLabel)
+          .attr("y", function (d) {
+            return noSplitHeight - 100 - z(d);
+          })
+          .text(function (d) {
+            return d;
+          })
+          .style("font-size", 10)
+          .attr("alignment-baseline", "middle");
+        //title
+        const legendTitle = wrapper
+          .append("text")
+          .attr("x", xCircle)
+          .attr("y", noSplitHeight - 70)
+          .text("Number of coauthors")
+          .attr("text-anchor", "middle");
 
         const circles = wrapper
           .append("g")
@@ -140,22 +211,55 @@ export default function define(runtime, observer) {
           .selectAll("circle")
           .data(throwing)
           .join("circle")
-          .attr("r", (d) => r(d.size))
+          .attr("r", (d) => r(d.size) * 3.6)
           .attr("fill", (d) => color(d.distance))
           .attr("x", (d) => x(d.distance))
-          .attr("y", (d) => y(d.year) + y.bandwidth() / 2);
-        // .attr('stroke', 'purple');
+          .attr("y", (d) => y(d.year) + y.bandwidth() / 2)
+          // .attr('stroke', 'purple');
 
-        //   d3.timeout(() => {
-        //     for (var i = 0, n = Math.ceil(Math.log(force.alphaMin()) /
-        //                                     Math.log(1 - force.alphaDecay())); i < n; ++i) {
-        //       force.tick();
+          //   d3.timeout(() => {
+          //     for (var i = 0, n = Math.ceil(Math.log(force.alphaMin()) /
+          //                                     Math.log(1 - force.alphaDecay())); i < n; ++i) {
+          //       force.tick();
 
-        //       circles
-        //         .attr('cx', d => d.x)
-        //         .attr('cy', d => d.y);
-        //     }
-        //   })
+          //       circles
+          //         .attr('cx', d => d.x)
+          //         .attr('cy', d => d.y);
+          //     }
+          //   })
+          .on("mouseover", function () {
+            d3.select(this)
+              .style("fill", "#a41022")
+              .attr("opacity", 0.7)
+              .attr("stroke", "Black")
+              .attr("stroke-width", "2")
+              .transition()
+              .duration(500);
+          })
+          .on("mousemove", function () {
+            d3.select(this)
+              .append("title")
+              .transition()
+              .duration(10)
+              .text(
+                (d) => d.title + "\nYear: " + d.year + "\nCoauthors: " + d.size
+              );
+            //.append('title')
+            //.text(d=>d.title)
+          })
+          .on("mouseout", function () {
+            d3.select(this)
+              .style("fill", function (d) {
+                return color(d.distance);
+              })
+              .attr("opacity", 1)
+              .attr("stroke", "none")
+              .transition()
+              .duration(500);
+            //d3.select(this).append('title').text(d=>d.title)
+          });
+        //.append('title')
+        //.text(d=>d.title)
 
         force.on("tick", () => {
           circles
@@ -174,19 +278,21 @@ export default function define(runtime, observer) {
 
             // Update height of svg object
             const t = d3.transition().duration(750);
-            svg.transition(t).attr("viewBox", [0, 0, width, height]);
+            svg.transition(t).attr("viewBox", [0, 0, width * 1.5, height]);
 
             // Update domain of y-Axis
-            y.domain(split ? years : ["All"]);
+            y.domain(split ? years : ["All years"]);
             y.range(
               split
                 ? [splitHeight - margin.top - margin.bottom, 0]
                 : [noSplitHeight - margin.top - margin.bottom, 0]
             );
             yAxisContainer
-              .call(yAxis, y, split ? years : ["All"])
+              .call(yAxis, y, split ? years : ["All years"])
               .call((g) => g.select(".domain").remove())
-              .call((g) => g.selectAll(".tick line").remove());
+              .call((g) => g.selectAll(".tick line").remove())
+              .attr("font-weight", "bold")
+              .attr("font-size", "17px");
 
             // Update simulation
             force.force(
@@ -251,7 +357,7 @@ export default function define(runtime, observer) {
           )
           .force(
             "collision",
-            d3.forceCollide().radius((d) => r(d.size) + 1)
+            d3.forceCollide().radius((d) => r(d.size) * 4)
           );
       }
     );
@@ -273,7 +379,7 @@ export default function define(runtime, observer) {
         return d3
           .scaleLinear()
           .domain(d3.extent(throwing, (d) => d.distance))
-          .range([0, innerWidth]);
+          .range([100, innerWidth]);
       }
     );
   main
@@ -294,17 +400,18 @@ export default function define(runtime, observer) {
     .define("xAxis", ["d3", "x"], function (d3, x) {
       return (g) =>
         g
-          .call(d3.axisTop(x).tickFormat((d) => `${d} m`))
+          .call(d3.axisTop(x).tickFormat((d) => `${d} `))
           .call((g) => g.select(".domain").remove())
           .call((g) =>
             g
               .append("text")
-              .attr("x", 150)
-              .attr("y", 20)
+              .attr("x", 50)
+              .attr("y", 10)
               .attr("font-weight", "bold")
+              .attr("font-size", "15px")
               .attr("fill", "currentColor")
               .attr("text-anchor", "end")
-              .text("How far atheletics scores →")
+              .text("Number of citations→")
           );
     });
   main
@@ -352,6 +459,7 @@ export default function define(runtime, observer) {
             year: +d.year,
             size: +d.size,
             distance: +d.distance,
+            title: d.title,
           };
         });
       }
