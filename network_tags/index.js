@@ -158,11 +158,11 @@ export default function define(runtime, observer) {
 
           const radius = 7;
 
-          var tooltip = d3
-            .select("body")
-            .append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0);
+          // const tooltip = d3
+          //   .select("body")
+          //   .append("div")
+          //   .attr("class", "tooltip")
+          //   .style("opacity", 0);
 
           const simulation = d3
             .forceSimulation(nodes)
@@ -170,7 +170,19 @@ export default function define(runtime, observer) {
               "link",
               d3.forceLink(links).id((d) => d.name)
             )
-            .force("charge", d3.forceManyBody().strength(-15))
+            //.force("charge", d3.forceManyBody().strength(-15))
+            .force(
+              "charge",
+              d3
+                .forceManyBody()
+                // .strength(function (d, i) {
+                //   var a = i == 0 ? -100 : -200;
+                //   return a;
+                // })
+                .strength(-120)
+                .distanceMin(20)
+                .distanceMax(120)
+            )
             .force("center", d3.forceCenter(width / 2, height / 2));
 
           const svg = d3.create("svg").attr("viewBox", [0, 0, width, height]);
@@ -178,7 +190,7 @@ export default function define(runtime, observer) {
           const link = svg
             .append("g")
             .attr("stroke", "#aaa")
-            .attr("stroke-opacity", 0.3)
+            .attr("stroke-opacity", 1)
             .selectAll("line")
             .data(links)
             .join("line")
@@ -192,7 +204,7 @@ export default function define(runtime, observer) {
             .join("circle")
             //.attr("r", radius)
             .attr("r", function (d) {
-              return d.nodesize / 10;
+              return Math.sqrt(d.nodesize);
             })
             .attr("fill", color)
             .call(drag(simulation))
@@ -233,7 +245,7 @@ export default function define(runtime, observer) {
             textElems
               .attr("x", (d) => d.x + 10)
               .attr("y", (d) => d.y)
-              .attr("visibility", "hidden");
+              .attr("visibility", "visible");
           });
 
           function fade(opacity) {
@@ -249,8 +261,8 @@ export default function define(runtime, observer) {
               );
               if (opacity === 1) {
                 node.style("opacity", 1);
-                textElems.style("visibility", "hidden");
-                link.style("stroke-opacity", 0.3);
+                textElems.style("visibility", "visible");
+                link.style("stroke-opacity", 0.5);
               }
             };
           }

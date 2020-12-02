@@ -15,11 +15,11 @@
     {"name": "Zheng Zhang", "group": 1, "size": 95.87}, 
     {"name": "Bruno Abrahao", "group": 1, "size": 6.98}], 
 "links": 
-    [{"source": 3, "target": 0, "value": 90, "group": 1}, 
+    [{"source": 3, "target": 0, "value": 20, "group": 1}, 
     {"source": 9, "target": 0, "value": 5, "group": 1}, 
     {"source": 0, "target": 3, "value": 20, "group": 1}, 
     {"source": 9, "target": 3, "value": 30, "group": 1}, 
-    {"source": 1, "target": 6, "value": 100, "group": 1}, 
-    {"source": 0, "target": 9, "value": 1000, "group": 1}, 
+    {"source": 1, "target": 6, "value": 10, "group": 1}, 
+    {"source": 0, "target": 9, "value": 100, "group": 1}, 
     {"source": 3, "target": 9, "value": 65, "group": 1}, 
     {"source": 2, "target": 11, "value": 10, "group": 1}]}
