@@ -45,7 +45,7 @@ export default function define(runtime, observer) {
       const form = html`<form>
         <label
           ><input name="split" type="radio" value="0" checked />
-          <small>All citations</small></label
+          <small>All publications</small></label
         >
         <label
           ><input name="split" type="radio" value="1" />
@@ -142,14 +142,14 @@ export default function define(runtime, observer) {
 
         // add legend circles
         // circles
-        const valuesToShow = [1, 2, 10];
-        const xCircle = -40;
-        const xLabel = 0;
+        const valuesToShow = [1, 2, 5];
+        const xCircle = 1400;
+        const xLabel = 1500;
         const z = d3
           .scaleSqrt()
           //.domain([0, d3.max(d, (d) => d.distance)])
           .domain(d3.extent(throwing, (d) => d.size))
-          .range([2, 30]);
+          .range([2, 100]);
         const legendCircles = wrapper
           .selectAll("legend")
           .data(valuesToShow)
@@ -157,10 +157,10 @@ export default function define(runtime, observer) {
           .append("circle")
           .attr("cx", xCircle)
           .attr("cy", function (d) {
-            return noSplitHeight - 100 - z(d);
+            return noSplitHeight - 400 - z(r(d / 20));
           })
           .attr("r", function (d) {
-            return d;
+            return r(d * 20);
           })
           .style("fill", "none")
           .attr("stroke", "black");
@@ -171,14 +171,14 @@ export default function define(runtime, observer) {
           .enter()
           .append("line")
           .attr("x1", function (d) {
-            return xCircle + z(d);
+            return xCircle + z(r(d / 20));
           })
           .attr("x2", xLabel)
           .attr("y1", function (d) {
-            return noSplitHeight - 100 - z(d);
+            return noSplitHeight - 400 - z(r(d / 20));
           })
           .attr("y2", function (d) {
-            return noSplitHeight - 100 - z(d);
+            return noSplitHeight - 400 - z(d);
           })
           .attr("stroke", "black")
           .style("stroke-dasharray", "2,2");
@@ -190,7 +190,7 @@ export default function define(runtime, observer) {
           .append("text")
           .attr("x", xLabel)
           .attr("y", function (d) {
-            return noSplitHeight - 100 - z(d);
+            return noSplitHeight - 400 - z(d);
           })
           .text(function (d) {
             return d;
@@ -201,7 +201,7 @@ export default function define(runtime, observer) {
         const legendTitle = wrapper
           .append("text")
           .attr("x", xCircle)
-          .attr("y", noSplitHeight - 70)
+          .attr("y", noSplitHeight - 370)
           .text("Number of coauthors")
           .attr("text-anchor", "middle");
 
@@ -211,8 +211,8 @@ export default function define(runtime, observer) {
           .selectAll("circle")
           .data(throwing)
           .join("circle")
-          .attr("r", (d) => r(d.size) * 3.6)
-          .attr("fill", (d) => color(d.distance))
+          .attr("r", (d) => r(d.size * 20))
+          .attr("fill", (d) => color(d.distance + 7))
           .attr("x", (d) => x(d.distance))
           .attr("y", (d) => y(d.year) + y.bandwidth() / 2)
           // .attr('stroke', 'purple');
@@ -250,7 +250,7 @@ export default function define(runtime, observer) {
           .on("mouseout", function () {
             d3.select(this)
               .style("fill", function (d) {
-                return color(d.distance);
+                return color(d.distance + 7);
               })
               .attr("opacity", 1)
               .attr("stroke", "none")

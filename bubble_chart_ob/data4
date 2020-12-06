@@ -1,4 +1,5 @@
 year,size,distance,title
+2016,2,89,On the hardness of learning with rounding over small modulus
 2017,3,34,"Fixing cracks in the concrete: Random oracles with auxiliary input, revisited"
 2014,2,32,Candidate weak pseudorandom functions in AC0 ○ MOD2
 2014,5,32,Rational arguments: single round delegation with sublinear verification
