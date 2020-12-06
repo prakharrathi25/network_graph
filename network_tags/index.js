@@ -194,7 +194,8 @@ export default function define(runtime, observer) {
             .selectAll("line")
             .data(links)
             .join("line")
-            .attr("stroke-width", (d) => Math.sqrt(d.value) / 2);
+            //.attr("stroke-width", (d) => Math.sqrt(d.value) / 2);
+            .attr("stroke-width", (d) => d.value);
 
           const node = svg
             .append("g")
@@ -204,7 +205,8 @@ export default function define(runtime, observer) {
             .join("circle")
             //.attr("r", radius)
             .attr("r", function (d) {
-              return Math.sqrt(d.nodesize);
+              //return Math.sqrt(d.nodesize);
+              return d.nodesize / 10;
             })
             .attr("fill", color)
             .call(drag(simulation))
