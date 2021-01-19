@@ -1,193 +1,477 @@
 category,date,name,value
-Technology,2009-01-01,Shuyang Ling,0.0
-Tobacco,2009-01-01,Enric Junque,0.0
-Restaurants,2009-01-01,Zhibin Chen,0.0
-Tobacco,2009-01-01,Gus Xia,0.0
-Diversified,2009-01-01,Ratan Dey,0.0
-Media,2009-01-01,Xianbin Gu,1.0
-Telecommunications,2009-01-01,Siyao Guo,0.0
-Technology,2009-01-01,Maeda F,2.0
-Diversified,2009-01-01,Hanafi,0.0
-Technology,2009-01-01,Miro Mannino,0.0
-Media,2009-01-01,Nasser Zalmout,0.0
-Business Services,2009-01-01,Salam Khalifa,0.0
-Telecommunications,2009-01-01,Bashar Alhafni,0.0
-Beverages,2009-01-01,Marcin Waniek,0.0
-Beverages,2009-01-01,Talal Ahmad,0.0
-Telecommunications,2009-01-01,Shujaat Mirza,0.0
-Business Services,2010-01-01,Shuyang Ling,0.0
-Beverages,2010-01-01,Enric Junque,0.0
-Telecommunications,2010-01-01,Zhibin Chen,0.0
-Automotive,2010-01-01,Gus Xia,0.0
-Telecommunications,2010-01-01,Ratan Dey,0.0
-Telecommunications,2010-01-01,Xianbin Gu,3.0
-Restaurants,2010-01-01,Siyao Guo,0.0
-Automotive,2010-01-01,Maeda F,2.0
-Automotive,2010-01-01,Hanafi,0.0
-Beverages,2010-01-01,Miro Mannino,0.0
-Media,2010-01-01,Nasser Zalmout,0.0
-Business Services,2010-01-01,Salam Khalifa,0.0
-Tobacco,2010-01-01,Bashar Alhafni,0.0
-Automotive,2010-01-01,Marcin Waniek,0.0
-Beverages,2010-01-01,Talal Ahmad,0.0
-Beverages,2010-01-01,Shujaat Mirza,0.0
-Restaurants,2011-01-01,Shuyang Ling,0.0
-Business Services,2011-01-01,Enric Junque,0.0
-Business Services,2011-01-01,Zhibin Chen,0.0
-Tobacco,2011-01-01,Gus Xia,0.0
-Technology,2011-01-01,Ratan Dey,0.0
-Restaurants,2011-01-01,Xianbin Gu,1.0
-Beverages,2011-01-01,Siyao Guo,0.0
-Telecommunications,2011-01-01,Maeda F,7.0
-Tobacco,2011-01-01,Hanafi,0.0
-Beverages,2011-01-01,Miro Mannino,0.0
-Technology,2011-01-01,Nasser Zalmout,0.0
-Restaurants,2011-01-01,Salam Khalifa,0.0
-Diversified,2011-01-01,Bashar Alhafni,0.0
-Media,2011-01-01,Marcin Waniek,0.0
-Tobacco,2011-01-01,Talal Ahmad,0.0
-Technology,2011-01-01,Shujaat Mirza,0.0
-Automotive,2012-01-01,Shuyang Ling,0.0
-Restaurants,2012-01-01,Enric Junque,2.0
-Telecommunications,2012-01-01,Zhibin Chen,0.0
-Automotive,2012-01-01,Gus Xia,8.0
-Business Services,2012-01-01,Ratan Dey,20.0
-Business Services,2012-01-01,Xianbin Gu,1.0
-Beverages,2012-01-01,Siyao Guo,0.0
-Diversified,2012-01-01,Maeda F,19.0
-Diversified,2012-01-01,Hanafi,0.0
-Beverages,2012-01-01,Miro Mannino,0.0
-Automotive,2012-01-01,Nasser Zalmout,0.0
-Restaurants,2012-01-01,Salam Khalifa,0.0
-Media,2012-01-01,Bashar Alhafni,0.0
-Restaurants,2012-01-01,Marcin Waniek,0.0
-Telecommunications,2012-01-01,Talal Ahmad,0.0
-Telecommunications,2012-01-01,Shujaat Mirza,0.0
-Technology,2013-01-01,Shuyang Ling,0.0
-Tobacco,2013-01-01,Enric Junque,11.0
-Beverages,2013-01-01,Zhibin Chen,0.0
-Diversified,2013-01-01,Gus Xia,7.0
-Telecommunications,2013-01-01,Ratan Dey,32.0
-Automotive,2013-01-01,Xianbin Gu,4.0
-Diversified,2013-01-01,Siyao Guo,1.0
-Technology,2013-01-01,Maeda F,19.0
-Technology,2013-01-01,Hanafi,0.0
-Beverages,2013-01-01,Miro Mannino,0.0
-Media,2013-01-01,Nasser Zalmout,2.0
-Restaurants,2013-01-01,Salam Khalifa,0.0
-Technology,2013-01-01,Bashar Alhafni,0.0
-Beverages,2013-01-01,Marcin Waniek,0.0
-Beverages,2013-01-01,Talal Ahmad,0.0
-Automotive,2013-01-01,Shujaat Mirza,0.0
-Restaurants,2014-01-01,Shuyang Ling,0.0
-Business Services,2014-01-01,Enric Junque,29.0
-Business Services,2014-01-01,Zhibin Chen,0.0
-Tobacco,2014-01-01,Gus Xia,13.0
-Media,2014-01-01,Ratan Dey,59.0
-Business Services,2014-01-01,Xianbin Gu,3.0
-Media,2014-01-01,Siyao Guo,7.0
-Tobacco,2014-01-01,Maeda F,32.0
-Business Services,2014-01-01,Hanafi,0.0
-Diversified,2014-01-01,Miro Mannino,0.0
-Business Services,2014-01-01,Nasser Zalmout,6.0
-Diversified,2014-01-01,Salam Khalifa,0.0
-Restaurants,2014-01-01,Bashar Alhafni,0.0
-Beverages,2014-01-01,Marcin Waniek,0.0
-Telecommunications,2014-01-01,Talal Ahmad,1.0
-Diversified,2014-01-01,Shujaat Mirza,0.0
-Beverages,2015-01-01,Shuyang Ling,10.0
-Diversified,2015-01-01,Enric Junque,50.0
-Telecommunications,2015-01-01,Zhibin Chen,5.0
-Diversified,2015-01-01,Gus Xia,15.0
-Restaurants,2015-01-01,Ratan Dey,71.0
-Automotive,2015-01-01,Xianbin Gu,8.0
-Telecommunications,2015-01-01,Siyao Guo,12.0
-Business Services,2015-01-01,Maeda F,18.0
-Restaurants,2015-01-01,Hanafi,0.0
-Business Services,2015-01-01,Miro Mannino,0.0
-Tobacco,2015-01-01,Nasser Zalmout,9.0
-Tobacco,2015-01-01,Salam Khalifa,0.0
-Media,2015-01-01,Bashar Alhafni,0.0
-Tobacco,2015-01-01,Marcin Waniek,0.0
-Beverages,2015-01-01,Talal Ahmad,9.0
-Diversified,2015-01-01,Shujaat Mirza,0.0
-Telecommunications,2016-01-01,Shuyang Ling,47.0
-Technology,2016-01-01,Enric Junque,57.0
-Business Services,2016-01-01,Zhibin Chen,20.0
-Diversified,2016-01-01,Gus Xia,28.0
-Technology,2016-01-01,Ratan Dey,75.0
-Tobacco,2016-01-01,Xianbin Gu,4.0
-Technology,2016-01-01,Siyao Guo,32.0
-Telecommunications,2016-01-01,Maeda F,36.0
-Automotive,2016-01-01,Hanafi,0.0
-Telecommunications,2016-01-01,Miro Mannino,0.0
-Media,2016-01-01,Nasser Zalmout,21.0
-Telecommunications,2016-01-01,Salam Khalifa,10.0
-Technology,2016-01-01,Bashar Alhafni,0.0
-Business Services,2016-01-01,Marcin Waniek,7.0
-Diversified,2016-01-01,Talal Ahmad,14.0
-Beverages,2016-01-01,Shujaat Mirza,0.0
-Technology,2017-01-01,Shuyang Ling,90.0
-Business Services,2017-01-01,Enric Junque,95.0
-Technology,2017-01-01,Zhibin Chen,54.0
-Diversified,2017-01-01,Gus Xia,27.0
-Business Services,2017-01-01,Ratan Dey,61.0
-Technology,2017-01-01,Xianbin Gu,1.0
-Automotive,2017-01-01,Siyao Guo,43.0
-Automotive,2017-01-01,Maeda F,25.0
-Automotive,2017-01-01,Hanafi,2.0
-Restaurants,2017-01-01,Miro Mannino,0.0
-Automotive,2017-01-01,Nasser Zalmout,65.0
-Diversified,2017-01-01,Salam Khalifa,32.0
-Restaurants,2017-01-01,Bashar Alhafni,0.0
-Telecommunications,2017-01-01,Marcin Waniek,12.0
-Media,2017-01-01,Talal Ahmad,15.0
-Diversified,2017-01-01,Shujaat Mirza,0.0
-Business Services,2018-01-01,Shuyang Ling,127.0
-Media,2018-01-01,Enric Junque,116.0
-Business Services,2018-01-01,Zhibin Chen,105.0
-Beverages,2018-01-01,Gus Xia,35.0
-Media,2018-01-01,Ratan Dey,56.0
-Technology,2018-01-01,Xianbin Gu,5.0
-Technology,2018-01-01,Siyao Guo,93.0
-Automotive,2018-01-01,Maeda F,18.0
-Automotive,2018-01-01,Hanafi,10.0
-Telecommunications,2018-01-01,Miro Mannino,5.0
-Diversified,2018-01-01,Nasser Zalmout,70.0
-Media,2018-01-01,Salam Khalifa,53.0
-Automotive,2018-01-01,Bashar Alhafni,0.0
-Technology,2018-01-01,Marcin Waniek,15.0
-Business Services,2018-01-01,Talal Ahmad,20.0
-Automotive,2018-01-01,Shujaat Mirza,0.0
-Beverages,2019-01-01,Shuyang Ling,163.0
-Tobacco,2019-01-01,Enric Junque,144.0
-Tobacco,2019-01-01,Zhibin Chen,163.0
-Tobacco,2019-01-01,Gus Xia,32.0
-Restaurants,2019-01-01,Ratan Dey,51.0
-Diversified,2019-01-01,Xianbin Gu,3.0
-Diversified,2019-01-01,Siyao Guo,98.0
-Tobacco,2019-01-01,Maeda F,22.0
-Telecommunications,2019-01-01,Hanafi,6.0
-Telecommunications,2019-01-01,Miro Mannino,13.0
-Automotive,2019-01-01,Nasser Zalmout,97.0
-Media,2019-01-01,Salam Khalifa,67.0
-Telecommunications,2019-01-01,Bashar Alhafni,2.0
-Diversified,2019-01-01,Marcin Waniek,39.0
-Diversified,2019-01-01,Talal Ahmad,28.0
-Automotive,2019-01-01,Shujaat Mirza,1.0
-Tobacco,2020-01-01,Shuyang Ling,135.0
-Automotive,2020-01-01,Enric Junque,134.0
-Diversified,2020-01-01,Zhibin Chen,166.0
-Automotive,2020-01-01,Gus Xia,90.0
-Restaurants,2020-01-01,Ratan Dey,57.0
-Business Services,2020-01-01,Xianbin Gu,0.0
-Restaurants,2020-01-01,Siyao Guo,90.0
-Beverages,2020-01-01,Maeda F,19.0
-Beverages,2020-01-01,Hanafi,6.0
-Automotive,2020-01-01,Miro Mannino,18.0
-Business Services,2020-01-01,Nasser Zalmout,0.0
-Beverages,2020-01-01,Salam Khalifa,94.0
-Technology,2020-01-01,Bashar Alhafni,9.0
-Media,2020-01-01,Marcin Waniek,44.0
-Media,2020-01-01,Talal Ahmad,20.0
-Automotive,2020-01-01,Shujaat Mirza,3.0
+Diversified,1993-01-01,Foster Provost,0.0
+Media,1993-01-01,Yevgeniy Dodis,0.0
+Diversified,1993-01-01,Yong Liu,0.0
+Diversified,1993-01-01,Anasse Bari,0.0
+Restaurants,1993-01-01,Megan Coffee,0.0
+Tobacco,1993-01-01,Rafael M,0.0
+Restaurants,1993-01-01,Moraes,0.0
+Telecommunications,1993-01-01,Doruk Kilitcioglu,0.0
+Tobacco,1993-01-01,Richard Bonneau,0.0
+Technology,1993-01-01,Jonathan Nagler,0.0
+Diversified,1993-01-01,Jane Skok,0.0
+Automotive,1993-01-01,Joan Bruna,0.0
+Restaurants,1993-01-01,Emily Denton,0.0
+Tobacco,1993-01-01,Kyunghyun Cho,0.0
+Diversified,1993-01-01,Sébastien Jean,0.0
+Automotive,1993-01-01,Yann LeCun,496.0
+Diversified,1993-01-01,Clement Farabet,0.0
+Restaurants,1994-01-01,Foster Provost,0.0
+Beverages,1994-01-01,Yevgeniy Dodis,0.0
+Diversified,1994-01-01,Yong Liu,0.0
+Diversified,1994-01-01,Anasse Bari,0.0
+Restaurants,1994-01-01,Megan Coffee,0.0
+Telecommunications,1994-01-01,Rafael M,0.0
+Telecommunications,1994-01-01,Moraes,0.0
+Telecommunications,1994-01-01,Doruk Kilitcioglu,0.0
+Media,1994-01-01,Richard Bonneau,0.0
+Media,1994-01-01,Jonathan Nagler,0.0
+Tobacco,1994-01-01,Jane Skok,0.0
+Automotive,1994-01-01,Joan Bruna,0.0
+Tobacco,1994-01-01,Emily Denton,0.0
+Restaurants,1994-01-01,Kyunghyun Cho,0.0
+Telecommunications,1994-01-01,Sébastien Jean,0.0
+Business Services,1994-01-01,Yann LeCun,512.0
+Beverages,1994-01-01,Clement Farabet,0.0
+Tobacco,1995-01-01,Foster Provost,0.0
+Restaurants,1995-01-01,Yevgeniy Dodis,0.0
+Tobacco,1995-01-01,Yong Liu,0.0
+Automotive,1995-01-01,Anasse Bari,0.0
+Business Services,1995-01-01,Megan Coffee,0.0
+Restaurants,1995-01-01,Rafael M,0.0
+Automotive,1995-01-01,Moraes,0.0
+Technology,1995-01-01,Doruk Kilitcioglu,0.0
+Technology,1995-01-01,Richard Bonneau,0.0
+Media,1995-01-01,Jonathan Nagler,0.0
+Automotive,1995-01-01,Jane Skok,0.0
+Technology,1995-01-01,Joan Bruna,0.0
+Beverages,1995-01-01,Emily Denton,0.0
+Tobacco,1995-01-01,Kyunghyun Cho,0.0
+Technology,1995-01-01,Sébastien Jean,0.0
+Business Services,1995-01-01,Yann LeCun,538.0
+Technology,1995-01-01,Clement Farabet,0.0
+Telecommunications,1996-01-01,Foster Provost,68.0
+Diversified,1996-01-01,Yevgeniy Dodis,0.0
+Restaurants,1996-01-01,Yong Liu,0.0
+Business Services,1996-01-01,Anasse Bari,0.0
+Automotive,1996-01-01,Megan Coffee,0.0
+Beverages,1996-01-01,Rafael M,0.0
+Automotive,1996-01-01,Moraes,0.0
+Restaurants,1996-01-01,Doruk Kilitcioglu,0.0
+Technology,1996-01-01,Richard Bonneau,0.0
+Technology,1996-01-01,Jonathan Nagler,0.0
+Media,1996-01-01,Jane Skok,0.0
+Telecommunications,1996-01-01,Joan Bruna,0.0
+Diversified,1996-01-01,Emily Denton,0.0
+Tobacco,1996-01-01,Kyunghyun Cho,0.0
+Telecommunications,1996-01-01,Sébastien Jean,0.0
+Beverages,1996-01-01,Yann LeCun,549.0
+Telecommunications,1996-01-01,Clement Farabet,0.0
+Media,1997-01-01,Foster Provost,73.0
+Business Services,1997-01-01,Yevgeniy Dodis,0.0
+Restaurants,1997-01-01,Yong Liu,0.0
+Telecommunications,1997-01-01,Anasse Bari,0.0
+Diversified,1997-01-01,Megan Coffee,0.0
+Restaurants,1997-01-01,Rafael M,0.0
+Media,1997-01-01,Moraes,0.0
+Telecommunications,1997-01-01,Doruk Kilitcioglu,0.0
+Automotive,1997-01-01,Richard Bonneau,0.0
+Diversified,1997-01-01,Jonathan Nagler,22.0
+Technology,1997-01-01,Jane Skok,0.0
+Media,1997-01-01,Joan Bruna,0.0
+Technology,1997-01-01,Emily Denton,0.0
+Telecommunications,1997-01-01,Kyunghyun Cho,0.0
+Diversified,1997-01-01,Sébastien Jean,0.0
+Business Services,1997-01-01,Yann LeCun,527.0
+Automotive,1997-01-01,Clement Farabet,0.0
+Tobacco,1998-01-01,Foster Provost,88.0
+Diversified,1998-01-01,Yevgeniy Dodis,0.0
+Business Services,1998-01-01,Yong Liu,0.0
+Tobacco,1998-01-01,Anasse Bari,0.0
+Technology,1998-01-01,Megan Coffee,0.0
+Business Services,1998-01-01,Rafael M,0.0
+Beverages,1998-01-01,Moraes,0.0
+Business Services,1998-01-01,Doruk Kilitcioglu,0.0
+Technology,1998-01-01,Richard Bonneau,0.0
+Beverages,1998-01-01,Jonathan Nagler,60.0
+Business Services,1998-01-01,Jane Skok,0.0
+Automotive,1998-01-01,Joan Bruna,0.0
+Media,1998-01-01,Emily Denton,0.0
+Telecommunications,1998-01-01,Kyunghyun Cho,0.0
+Beverages,1998-01-01,Sébastien Jean,0.0
+Technology,1998-01-01,Yann LeCun,589.0
+Business Services,1998-01-01,Clement Farabet,0.0
+Automotive,1999-01-01,Foster Provost,187.0
+Diversified,1999-01-01,Yevgeniy Dodis,0.0
+Diversified,1999-01-01,Yong Liu,0.0
+Media,1999-01-01,Anasse Bari,0.0
+Technology,1999-01-01,Megan Coffee,0.0
+Tobacco,1999-01-01,Rafael M,0.0
+Beverages,1999-01-01,Moraes,0.0
+Diversified,1999-01-01,Doruk Kilitcioglu,0.0
+Technology,1999-01-01,Richard Bonneau,0.0
+Automotive,1999-01-01,Jonathan Nagler,74.0
+Media,1999-01-01,Jane Skok,0.0
+Automotive,1999-01-01,Joan Bruna,0.0
+Beverages,1999-01-01,Emily Denton,0.0
+Diversified,1999-01-01,Kyunghyun Cho,0.0
+Media,1999-01-01,Sébastien Jean,0.0
+Media,1999-01-01,Yann LeCun,482.0
+Beverages,1999-01-01,Clement Farabet,0.0
+Tobacco,2000-01-01,Foster Provost,183.0
+Media,2000-01-01,Yevgeniy Dodis,0.0
+Beverages,2000-01-01,Yong Liu,0.0
+Media,2000-01-01,Anasse Bari,0.0
+Telecommunications,2000-01-01,Megan Coffee,0.0
+Telecommunications,2000-01-01,Rafael M,0.0
+Beverages,2000-01-01,Moraes,0.0
+Automotive,2000-01-01,Doruk Kilitcioglu,0.0
+Diversified,2000-01-01,Richard Bonneau,0.0
+Tobacco,2000-01-01,Jonathan Nagler,121.0
+Tobacco,2000-01-01,Jane Skok,0.0
+Diversified,2000-01-01,Joan Bruna,0.0
+Technology,2000-01-01,Emily Denton,0.0
+Tobacco,2000-01-01,Kyunghyun Cho,0.0
+Automotive,2000-01-01,Sébastien Jean,0.0
+Business Services,2000-01-01,Yann LeCun,464.0
+Diversified,2000-01-01,Clement Farabet,0.0
+Telecommunications,2001-01-01,Foster Provost,273.0
+Diversified,2001-01-01,Yevgeniy Dodis,0.0
+Automotive,2001-01-01,Yong Liu,0.0
+Restaurants,2001-01-01,Anasse Bari,0.0
+Business Services,2001-01-01,Megan Coffee,5.0
+Media,2001-01-01,Rafael M,0.0
+Diversified,2001-01-01,Moraes,0.0
+Diversified,2001-01-01,Doruk Kilitcioglu,0.0
+Restaurants,2001-01-01,Richard Bonneau,50.0
+Restaurants,2001-01-01,Jonathan Nagler,127.0
+Beverages,2001-01-01,Jane Skok,14.0
+Restaurants,2001-01-01,Joan Bruna,0.0
+Restaurants,2001-01-01,Emily Denton,0.0
+Restaurants,2001-01-01,Kyunghyun Cho,0.0
+Media,2001-01-01,Sébastien Jean,0.0
+Technology,2001-01-01,Yann LeCun,495.0
+Automotive,2001-01-01,Clement Farabet,0.0
+Automotive,2002-01-01,Foster Provost,361.0
+Diversified,2002-01-01,Yevgeniy Dodis,65.0
+Automotive,2002-01-01,Yong Liu,0.0
+Tobacco,2002-01-01,Anasse Bari,0.0
+Media,2002-01-01,Megan Coffee,9.0
+Beverages,2002-01-01,Rafael M,0.0
+Beverages,2002-01-01,Moraes,0.0
+Telecommunications,2002-01-01,Doruk Kilitcioglu,0.0
+Telecommunications,2002-01-01,Richard Bonneau,102.0
+Technology,2002-01-01,Jonathan Nagler,130.0
+Media,2002-01-01,Jane Skok,44.0
+Diversified,2002-01-01,Joan Bruna,0.0
+Telecommunications,2002-01-01,Emily Denton,0.0
+Business Services,2002-01-01,Kyunghyun Cho,0.0
+Tobacco,2002-01-01,Sébastien Jean,0.0
+Beverages,2002-01-01,Yann LeCun,564.0
+Automotive,2002-01-01,Clement Farabet,0.0
+Diversified,2003-01-01,Foster Provost,526.0
+Automotive,2003-01-01,Yevgeniy Dodis,157.0
+Media,2003-01-01,Yong Liu,25.0
+Diversified,2003-01-01,Anasse Bari,0.0
+Tobacco,2003-01-01,Megan Coffee,12.0
+Beverages,2003-01-01,Rafael M,0.0
+Business Services,2003-01-01,Moraes,0.0
+Telecommunications,2003-01-01,Doruk Kilitcioglu,0.0
+Tobacco,2003-01-01,Richard Bonneau,174.0
+Restaurants,2003-01-01,Jonathan Nagler,151.0
+Automotive,2003-01-01,Jane Skok,47.0
+Restaurants,2003-01-01,Joan Bruna,0.0
+Media,2003-01-01,Emily Denton,0.0
+Diversified,2003-01-01,Kyunghyun Cho,0.0
+Beverages,2003-01-01,Sébastien Jean,0.0
+Media,2003-01-01,Yann LeCun,576.0
+Business Services,2003-01-01,Clement Farabet,0.0
+Business Services,2004-01-01,Foster Provost,585.0
+Tobacco,2004-01-01,Yevgeniy Dodis,281.0
+Beverages,2004-01-01,Yong Liu,83.0
+Automotive,2004-01-01,Anasse Bari,0.0
+Diversified,2004-01-01,Megan Coffee,11.0
+Business Services,2004-01-01,Rafael M,0.0
+Technology,2004-01-01,Moraes,0.0
+Telecommunications,2004-01-01,Doruk Kilitcioglu,0.0
+Beverages,2004-01-01,Richard Bonneau,215.0
+Beverages,2004-01-01,Jonathan Nagler,187.0
+Diversified,2004-01-01,Jane Skok,79.0
+Technology,2004-01-01,Joan Bruna,0.0
+Diversified,2004-01-01,Emily Denton,0.0
+Restaurants,2004-01-01,Kyunghyun Cho,0.0
+Restaurants,2004-01-01,Sébastien Jean,0.0
+Automotive,2004-01-01,Yann LeCun,620.0
+Restaurants,2004-01-01,Clement Farabet,0.0
+Media,2005-01-01,Foster Provost,733.0
+Telecommunications,2005-01-01,Yevgeniy Dodis,381.0
+Tobacco,2005-01-01,Yong Liu,76.0
+Telecommunications,2005-01-01,Anasse Bari,0.0
+Restaurants,2005-01-01,Megan Coffee,17.0
+Tobacco,2005-01-01,Rafael M,0.0
+Technology,2005-01-01,Moraes,0.0
+Diversified,2005-01-01,Doruk Kilitcioglu,0.0
+Media,2005-01-01,Richard Bonneau,252.0
+Restaurants,2005-01-01,Jonathan Nagler,240.0
+Tobacco,2005-01-01,Jane Skok,122.0
+Tobacco,2005-01-01,Joan Bruna,0.0
+Automotive,2005-01-01,Emily Denton,0.0
+Diversified,2005-01-01,Kyunghyun Cho,0.0
+Restaurants,2005-01-01,Sébastien Jean,0.0
+Restaurants,2005-01-01,Yann LeCun,793.0
+Beverages,2005-01-01,Clement Farabet,0.0
+Business Services,2006-01-01,Foster Provost,835.0
+Technology,2006-01-01,Yevgeniy Dodis,537.0
+Tobacco,2006-01-01,Yong Liu,138.0
+Diversified,2006-01-01,Anasse Bari,0.0
+Business Services,2006-01-01,Megan Coffee,24.0
+Diversified,2006-01-01,Rafael M,0.0
+Restaurants,2006-01-01,Moraes,0.0
+Diversified,2006-01-01,Doruk Kilitcioglu,0.0
+Telecommunications,2006-01-01,Richard Bonneau,282.0
+Beverages,2006-01-01,Jonathan Nagler,212.0
+Diversified,2006-01-01,Jane Skok,152.0
+Restaurants,2006-01-01,Joan Bruna,0.0
+Business Services,2006-01-01,Emily Denton,0.0
+Telecommunications,2006-01-01,Kyunghyun Cho,0.0
+Telecommunications,2006-01-01,Sébastien Jean,0.0
+Telecommunications,2006-01-01,Yann LeCun,965.0
+Restaurants,2006-01-01,Clement Farabet,0.0
+Technology,2007-01-01,Foster Provost,887.0
+Beverages,2007-01-01,Yevgeniy Dodis,636.0
+Automotive,2007-01-01,Yong Liu,245.0
+Beverages,2007-01-01,Anasse Bari,0.0
+Telecommunications,2007-01-01,Megan Coffee,32.0
+Restaurants,2007-01-01,Rafael M,0.0
+Telecommunications,2007-01-01,Moraes,0.0
+Restaurants,2007-01-01,Doruk Kilitcioglu,0.0
+Business Services,2007-01-01,Richard Bonneau,388.0
+Beverages,2007-01-01,Jonathan Nagler,224.0
+Beverages,2007-01-01,Jane Skok,183.0
+Telecommunications,2007-01-01,Joan Bruna,0.0
+Technology,2007-01-01,Emily Denton,0.0
+Restaurants,2007-01-01,Kyunghyun Cho,0.0
+Technology,2007-01-01,Sébastien Jean,0.0
+Diversified,2007-01-01,Yann LeCun,1187.0
+Telecommunications,2007-01-01,Clement Farabet,0.0
+Diversified,2008-01-01,Foster Provost,1043.0
+Tobacco,2008-01-01,Yevgeniy Dodis,752.0
+Tobacco,2008-01-01,Yong Liu,445.0
+Technology,2008-01-01,Anasse Bari,0.0
+Beverages,2008-01-01,Megan Coffee,33.0
+Telecommunications,2008-01-01,Rafael M,0.0
+Tobacco,2008-01-01,Moraes,0.0
+Automotive,2008-01-01,Doruk Kilitcioglu,0.0
+Media,2008-01-01,Richard Bonneau,490.0
+Telecommunications,2008-01-01,Jonathan Nagler,235.0
+Beverages,2008-01-01,Jane Skok,234.0
+Diversified,2008-01-01,Joan Bruna,0.0
+Automotive,2008-01-01,Emily Denton,0.0
+Automotive,2008-01-01,Kyunghyun Cho,0.0
+Restaurants,2008-01-01,Sébastien Jean,0.0
+Restaurants,2008-01-01,Yann LeCun,1209.0
+Diversified,2008-01-01,Clement Farabet,0.0
+Telecommunications,2009-01-01,Foster Provost,1028.0
+Tobacco,2009-01-01,Yevgeniy Dodis,788.0
+Tobacco,2009-01-01,Yong Liu,580.0
+Technology,2009-01-01,Anasse Bari,0.0
+Business Services,2009-01-01,Megan Coffee,38.0
+Business Services,2009-01-01,Rafael M,0.0
+Beverages,2009-01-01,Moraes,0.0
+Tobacco,2009-01-01,Doruk Kilitcioglu,0.0
+Business Services,2009-01-01,Richard Bonneau,534.0
+Restaurants,2009-01-01,Jonathan Nagler,287.0
+Restaurants,2009-01-01,Jane Skok,212.0
+Media,2009-01-01,Joan Bruna,0.0
+Tobacco,2009-01-01,Emily Denton,0.0
+Restaurants,2009-01-01,Kyunghyun Cho,0.0
+Media,2009-01-01,Sébastien Jean,0.0
+Telecommunications,2009-01-01,Yann LeCun,1364.0
+Tobacco,2009-01-01,Clement Farabet,0.0
+Business Services,2010-01-01,Foster Provost,1098.0
+Media,2010-01-01,Yevgeniy Dodis,1009.0
+Restaurants,2010-01-01,Yong Liu,660.0
+Telecommunications,2010-01-01,Anasse Bari,0.0
+Telecommunications,2010-01-01,Megan Coffee,52.0
+Telecommunications,2010-01-01,Rafael M,68.0
+Telecommunications,2010-01-01,Moraes,0.0
+Business Services,2010-01-01,Doruk Kilitcioglu,0.0
+Media,2010-01-01,Richard Bonneau,522.0
+Technology,2010-01-01,Jonathan Nagler,315.0
+Beverages,2010-01-01,Jane Skok,273.0
+Tobacco,2010-01-01,Joan Bruna,0.0
+Automotive,2010-01-01,Emily Denton,0.0
+Media,2010-01-01,Kyunghyun Cho,0.0
+Technology,2010-01-01,Sébastien Jean,0.0
+Diversified,2010-01-01,Yann LeCun,1645.0
+Business Services,2010-01-01,Clement Farabet,22.0
+Tobacco,2011-01-01,Foster Provost,1232.0
+Media,2011-01-01,Yevgeniy Dodis,972.0
+Diversified,2011-01-01,Yong Liu,694.0
+Beverages,2011-01-01,Anasse Bari,0.0
+Technology,2011-01-01,Megan Coffee,44.0
+Restaurants,2011-01-01,Rafael M,79.0
+Telecommunications,2011-01-01,Moraes,0.0
+Technology,2011-01-01,Doruk Kilitcioglu,0.0
+Media,2011-01-01,Richard Bonneau,579.0
+Business Services,2011-01-01,Jonathan Nagler,278.0
+Telecommunications,2011-01-01,Jane Skok,276.0
+Beverages,2011-01-01,Joan Bruna,0.0
+Technology,2011-01-01,Emily Denton,0.0
+Media,2011-01-01,Kyunghyun Cho,0.0
+Media,2011-01-01,Sébastien Jean,0.0
+Beverages,2011-01-01,Yann LeCun,1987.0
+Business Services,2011-01-01,Clement Farabet,60.0
+Tobacco,2012-01-01,Foster Provost,1277.0
+Tobacco,2012-01-01,Yevgeniy Dodis,1096.0
+Business Services,2012-01-01,Yong Liu,698.0
+Beverages,2012-01-01,Anasse Bari,4.0
+Business Services,2012-01-01,Megan Coffee,32.0
+Media,2012-01-01,Rafael M,82.0
+Automotive,2012-01-01,Moraes,0.0
+Diversified,2012-01-01,Doruk Kilitcioglu,0.0
+Technology,2012-01-01,Richard Bonneau,669.0
+Tobacco,2012-01-01,Jonathan Nagler,275.0
+Restaurants,2012-01-01,Jane Skok,267.0
+Technology,2012-01-01,Joan Bruna,0.0
+Business Services,2012-01-01,Emily Denton,0.0
+Restaurants,2012-01-01,Kyunghyun Cho,0.0
+Diversified,2012-01-01,Sébastien Jean,0.0
+Restaurants,2012-01-01,Yann LeCun,2362.0
+Technology,2012-01-01,Clement Farabet,78.0
+Tobacco,2013-01-01,Foster Provost,1444.0
+Media,2013-01-01,Yevgeniy Dodis,1108.0
+Media,2013-01-01,Yong Liu,636.0
+Telecommunications,2013-01-01,Anasse Bari,5.0
+Tobacco,2013-01-01,Megan Coffee,38.0
+Restaurants,2013-01-01,Rafael M,189.0
+Telecommunications,2013-01-01,Moraes,0.0
+Beverages,2013-01-01,Doruk Kilitcioglu,0.0
+Tobacco,2013-01-01,Richard Bonneau,934.0
+Restaurants,2013-01-01,Jonathan Nagler,276.0
+Telecommunications,2013-01-01,Jane Skok,295.0
+Telecommunications,2013-01-01,Joan Bruna,41.0
+Technology,2013-01-01,Emily Denton,0.0
+Telecommunications,2013-01-01,Kyunghyun Cho,0.0
+Beverages,2013-01-01,Sébastien Jean,0.0
+Restaurants,2013-01-01,Yann LeCun,3152.0
+Telecommunications,2013-01-01,Clement Farabet,166.0
+Telecommunications,2014-01-01,Foster Provost,1611.0
+Business Services,2014-01-01,Yevgeniy Dodis,1250.0
+Tobacco,2014-01-01,Yong Liu,630.0
+Media,2014-01-01,Anasse Bari,3.0
+Tobacco,2014-01-01,Megan Coffee,46.0
+Beverages,2014-01-01,Rafael M,270.0
+Automotive,2014-01-01,Moraes,0.0
+Media,2014-01-01,Doruk Kilitcioglu,0.0
+Tobacco,2014-01-01,Richard Bonneau,1108.0
+Tobacco,2014-01-01,Jonathan Nagler,328.0
+Beverages,2014-01-01,Jane Skok,270.0
+Restaurants,2014-01-01,Joan Bruna,110.0
+Tobacco,2014-01-01,Emily Denton,17.0
+Tobacco,2014-01-01,Kyunghyun Cho,177.0
+Restaurants,2014-01-01,Sébastien Jean,21.0
+Telecommunications,2014-01-01,Yann LeCun,4607.0
+Restaurants,2014-01-01,Clement Farabet,390.0
+Technology,2015-01-01,Foster Provost,1675.0
+Restaurants,2015-01-01,Yevgeniy Dodis,1377.0
+Tobacco,2015-01-01,Yong Liu,692.0
+Telecommunications,2015-01-01,Anasse Bari,10.0
+Media,2015-01-01,Megan Coffee,72.0
+Technology,2015-01-01,Rafael M,483.0
+Technology,2015-01-01,Moraes,0.0
+Technology,2015-01-01,Doruk Kilitcioglu,0.0
+Business Services,2015-01-01,Richard Bonneau,1325.0
+Telecommunications,2015-01-01,Jonathan Nagler,388.0
+Automotive,2015-01-01,Jane Skok,343.0
+Business Services,2015-01-01,Joan Bruna,354.0
+Technology,2015-01-01,Emily Denton,73.0
+Diversified,2015-01-01,Kyunghyun Cho,1047.0
+Telecommunications,2015-01-01,Sébastien Jean,115.0
+Beverages,2015-01-01,Yann LeCun,7656.0
+Diversified,2015-01-01,Clement Farabet,734.0
+Technology,2016-01-01,Foster Provost,1691.0
+Diversified,2016-01-01,Yevgeniy Dodis,1515.0
+Business Services,2016-01-01,Yong Liu,651.0
+Restaurants,2016-01-01,Anasse Bari,14.0
+Beverages,2016-01-01,Megan Coffee,82.0
+Restaurants,2016-01-01,Rafael M,1725.0
+Business Services,2016-01-01,Moraes,0.0
+Technology,2016-01-01,Doruk Kilitcioglu,0.0
+Diversified,2016-01-01,Richard Bonneau,1673.0
+Telecommunications,2016-01-01,Jonathan Nagler,478.0
+Diversified,2016-01-01,Jane Skok,347.0
+Restaurants,2016-01-01,Joan Bruna,646.0
+Restaurants,2016-01-01,Emily Denton,275.0
+Automotive,2016-01-01,Kyunghyun Cho,4038.0
+Tobacco,2016-01-01,Sébastien Jean,299.0
+Tobacco,2016-01-01,Yann LeCun,13725.0
+Business Services,2016-01-01,Clement Farabet,1345.0
+Restaurants,2017-01-01,Foster Provost,1826.0
+Restaurants,2017-01-01,Yevgeniy Dodis,1293.0
+Diversified,2017-01-01,Yong Liu,652.0
+Diversified,2017-01-01,Anasse Bari,4.0
+Business Services,2017-01-01,Megan Coffee,101.0
+Telecommunications,2017-01-01,Rafael M,3209.0
+Automotive,2017-01-01,Moraes,0.0
+Business Services,2017-01-01,Doruk Kilitcioglu,0.0
+Diversified,2017-01-01,Richard Bonneau,2015.0
+Beverages,2017-01-01,Jonathan Nagler,578.0
+Diversified,2017-01-01,Jane Skok,351.0
+Telecommunications,2017-01-01,Joan Bruna,1255.0
+Media,2017-01-01,Emily Denton,526.0
+Media,2017-01-01,Kyunghyun Cho,7860.0
+Technology,2017-01-01,Sébastien Jean,557.0
+Tobacco,2017-01-01,Yann LeCun,20727.0
+Business Services,2017-01-01,Clement Farabet,1595.0
+Telecommunications,2018-01-01,Foster Provost,1966.0
+Beverages,2018-01-01,Yevgeniy Dodis,1331.0
+Tobacco,2018-01-01,Yong Liu,646.0
+Technology,2018-01-01,Anasse Bari,10.0
+Media,2018-01-01,Megan Coffee,116.0
+Diversified,2018-01-01,Rafael M,4574.0
+Automotive,2018-01-01,Moraes,0.0
+Media,2018-01-01,Doruk Kilitcioglu,0.0
+Telecommunications,2018-01-01,Richard Bonneau,2290.0
+Restaurants,2018-01-01,Jonathan Nagler,783.0
+Tobacco,2018-01-01,Jane Skok,380.0
+Technology,2018-01-01,Joan Bruna,2703.0
+Business Services,2018-01-01,Emily Denton,839.0
+Media,2018-01-01,Kyunghyun Cho,12963.0
+Business Services,2018-01-01,Sébastien Jean,781.0
+Tobacco,2018-01-01,Yann LeCun,29939.0
+Diversified,2018-01-01,Clement Farabet,1455.0
+Diversified,2019-01-01,Foster Provost,1948.0
+Technology,2019-01-01,Yevgeniy Dodis,1369.0
+Diversified,2019-01-01,Yong Liu,579.0
+Media,2019-01-01,Anasse Bari,32.0
+Restaurants,2019-01-01,Megan Coffee,90.0
+Technology,2019-01-01,Rafael M,5909.0
+Tobacco,2019-01-01,Moraes,0.0
+Diversified,2019-01-01,Doruk Kilitcioglu,1.0
+Beverages,2019-01-01,Richard Bonneau,2668.0
+Telecommunications,2019-01-01,Jonathan Nagler,861.0
+Tobacco,2019-01-01,Jane Skok,446.0
+Beverages,2019-01-01,Joan Bruna,4468.0
+Telecommunications,2019-01-01,Emily Denton,1032.0
+Automotive,2019-01-01,Kyunghyun Cho,17280.0
+Tobacco,2019-01-01,Sébastien Jean,788.0
+Tobacco,2019-01-01,Yann LeCun,37687.0
+Beverages,2019-01-01,Clement Farabet,1272.0
+Automotive,2020-01-01,Foster Provost,1703.0
+Business Services,2020-01-01,Yevgeniy Dodis,1021.0
+Technology,2020-01-01,Yong Liu,428.0
+Diversified,2020-01-01,Anasse Bari,127.0
+Media,2020-01-01,Megan Coffee,333.0
+Diversified,2020-01-01,Rafael M,6750.0
+Business Services,2020-01-01,Moraes,0.0
+Beverages,2020-01-01,Doruk Kilitcioglu,1.0
+Tobacco,2020-01-01,Richard Bonneau,3247.0
+Telecommunications,2020-01-01,Jonathan Nagler,1138.0
+Tobacco,2020-01-01,Jane Skok,523.0
+Business Services,2020-01-01,Joan Bruna,5306.0
+Tobacco,2020-01-01,Emily Denton,979.0
+Diversified,2020-01-01,Kyunghyun Cho,16669.0
+Diversified,2020-01-01,Sébastien Jean,652.0
+Telecommunications,2020-01-01,Yann LeCun,35604.0
+Business Services,2020-01-01,Clement Farabet,908.0
