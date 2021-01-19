@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Network of StackOverflow Tags</title>
+    <link rel="import" type="application/json" href="{{ url_for('static', filename= 'js/network.json') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/inspector_c.css') }}">
+</head>
+
+<body>
+    <script type="module">
+
+        import define from "{{ url_for('static', filename= 'js/index_c.js') }}";
+        import {Runtime, Library, Inspector} from "{{ url_for('static', filename= 'js/runtime_c.js') }}";  
+        const runtime = new Runtime();
+        const main = runtime.module(define, Inspector.into(document.body));
+        
+    </script>
+</body>
+
+</html>

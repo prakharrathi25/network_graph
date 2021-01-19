@@ -1,0 +1,337 @@
+category,date,name,value
+Automotive,1993-01-01,Keith Ross,107.0
+Restaurants,1993-01-01,Romain,0.0
+Media,1993-01-01,Shuyang Ling,0.0
+Diversified,1993-01-01,Enric Junque,0.0
+Restaurants,1993-01-01,Zhibin Chen,0.0
+Beverages,1993-01-01,Gus Xia,0.0
+Automotive,1993-01-01,Ratan Dey,0.0
+Telecommunications,1993-01-01,Xianbin Gu,0.0
+Beverages,1993-01-01,Siyao Guo,0.0
+Telecommunications,1993-01-01,Oliver Marin,0.0
+Beverages,1993-01-01,Zheng Zhang,0.0
+Technology,1993-01-01,Bruno Abrahao,0.0
+Business Services,1994-01-01,Keith Ross,149.0
+Technology,1994-01-01,Romain,0.0
+Business Services,1994-01-01,Shuyang Ling,0.0
+Media,1994-01-01,Enric Junque,0.0
+Beverages,1994-01-01,Zhibin Chen,0.0
+Restaurants,1994-01-01,Gus Xia,0.0
+Business Services,1994-01-01,Ratan Dey,0.0
+Diversified,1994-01-01,Xianbin Gu,0.0
+Technology,1994-01-01,Siyao Guo,0.0
+Automotive,1994-01-01,Oliver Marin,0.0
+Diversified,1994-01-01,Zheng Zhang,0.0
+Restaurants,1994-01-01,Bruno Abrahao,0.0
+Diversified,1995-01-01,Keith Ross,150.0
+Media,1995-01-01,Romain,0.0
+Diversified,1995-01-01,Shuyang Ling,0.0
+Automotive,1995-01-01,Enric Junque,0.0
+Beverages,1995-01-01,Zhibin Chen,0.0
+Technology,1995-01-01,Gus Xia,0.0
+Technology,1995-01-01,Ratan Dey,0.0
+Restaurants,1995-01-01,Xianbin Gu,0.0
+Telecommunications,1995-01-01,Siyao Guo,0.0
+Media,1995-01-01,Oliver Marin,0.0
+Technology,1995-01-01,Zheng Zhang,0.0
+Business Services,1995-01-01,Bruno Abrahao,0.0
+Restaurants,1996-01-01,Keith Ross,172.0
+Beverages,1996-01-01,Romain,0.0
+Media,1996-01-01,Shuyang Ling,0.0
+Telecommunications,1996-01-01,Enric Junque,0.0
+Telecommunications,1996-01-01,Zhibin Chen,0.0
+Technology,1996-01-01,Gus Xia,0.0
+Technology,1996-01-01,Ratan Dey,0.0
+Diversified,1996-01-01,Xianbin Gu,0.0
+Automotive,1996-01-01,Siyao Guo,0.0
+Beverages,1996-01-01,Oliver Marin,0.0
+Automotive,1996-01-01,Zheng Zhang,0.0
+Media,1996-01-01,Bruno Abrahao,0.0
+Diversified,1997-01-01,Keith Ross,241.0
+Automotive,1997-01-01,Romain,0.0
+Restaurants,1997-01-01,Shuyang Ling,0.0
+Beverages,1997-01-01,Enric Junque,0.0
+Telecommunications,1997-01-01,Zhibin Chen,0.0
+Business Services,1997-01-01,Gus Xia,0.0
+Technology,1997-01-01,Ratan Dey,0.0
+Media,1997-01-01,Xianbin Gu,0.0
+Restaurants,1997-01-01,Siyao Guo,0.0
+Restaurants,1997-01-01,Oliver Marin,0.0
+Media,1997-01-01,Zheng Zhang,0.0
+Restaurants,1997-01-01,Bruno Abrahao,0.0
+Diversified,1998-01-01,Keith Ross,301.0
+Technology,1998-01-01,Romain,0.0
+Telecommunications,1998-01-01,Shuyang Ling,0.0
+Diversified,1998-01-01,Enric Junque,0.0
+Business Services,1998-01-01,Zhibin Chen,0.0
+Restaurants,1998-01-01,Gus Xia,0.0
+Business Services,1998-01-01,Ratan Dey,0.0
+Tobacco,1998-01-01,Xianbin Gu,0.0
+Business Services,1998-01-01,Siyao Guo,0.0
+Telecommunications,1998-01-01,Oliver Marin,0.0
+Technology,1998-01-01,Zheng Zhang,34.0
+Telecommunications,1998-01-01,Bruno Abrahao,0.0
+Telecommunications,1999-01-01,Keith Ross,280.0
+Diversified,1999-01-01,Romain,0.0
+Automotive,1999-01-01,Shuyang Ling,0.0
+Telecommunications,1999-01-01,Enric Junque,0.0
+Business Services,1999-01-01,Zhibin Chen,0.0
+Beverages,1999-01-01,Gus Xia,0.0
+Business Services,1999-01-01,Ratan Dey,0.0
+Technology,1999-01-01,Xianbin Gu,0.0
+Telecommunications,1999-01-01,Siyao Guo,0.0
+Automotive,1999-01-01,Oliver Marin,0.0
+Diversified,1999-01-01,Zheng Zhang,38.0
+Business Services,1999-01-01,Bruno Abrahao,0.0
+Restaurants,2000-01-01,Keith Ross,359.0
+Tobacco,2000-01-01,Romain,0.0
+Technology,2000-01-01,Shuyang Ling,0.0
+Media,2000-01-01,Enric Junque,0.0
+Tobacco,2000-01-01,Zhibin Chen,0.0
+Restaurants,2000-01-01,Gus Xia,0.0
+Technology,2000-01-01,Ratan Dey,0.0
+Tobacco,2000-01-01,Xianbin Gu,0.0
+Media,2000-01-01,Siyao Guo,0.0
+Telecommunications,2000-01-01,Oliver Marin,0.0
+Business Services,2000-01-01,Zheng Zhang,41.0
+Tobacco,2000-01-01,Bruno Abrahao,0.0
+Telecommunications,2001-01-01,Keith Ross,422.0
+Diversified,2001-01-01,Romain,0.0
+Media,2001-01-01,Shuyang Ling,0.0
+Technology,2001-01-01,Enric Junque,0.0
+Technology,2001-01-01,Zhibin Chen,0.0
+Automotive,2001-01-01,Gus Xia,0.0
+Beverages,2001-01-01,Ratan Dey,0.0
+Telecommunications,2001-01-01,Xianbin Gu,0.0
+Automotive,2001-01-01,Siyao Guo,0.0
+Automotive,2001-01-01,Oliver Marin,6.0
+Beverages,2001-01-01,Zheng Zhang,34.0
+Automotive,2001-01-01,Bruno Abrahao,2.0
+Telecommunications,2002-01-01,Keith Ross,559.0
+Technology,2002-01-01,Romain,0.0
+Restaurants,2002-01-01,Shuyang Ling,0.0
+Technology,2002-01-01,Enric Junque,0.0
+Technology,2002-01-01,Zhibin Chen,0.0
+Media,2002-01-01,Gus Xia,0.0
+Diversified,2002-01-01,Ratan Dey,0.0
+Telecommunications,2002-01-01,Xianbin Gu,0.0
+Business Services,2002-01-01,Siyao Guo,0.0
+Restaurants,2002-01-01,Oliver Marin,12.0
+Tobacco,2002-01-01,Zheng Zhang,42.0
+Technology,2002-01-01,Bruno Abrahao,3.0
+Business Services,2003-01-01,Keith Ross,685.0
+Tobacco,2003-01-01,Romain,0.0
+Tobacco,2003-01-01,Shuyang Ling,0.0
+Restaurants,2003-01-01,Enric Junque,0.0
+Tobacco,2003-01-01,Zhibin Chen,0.0
+Technology,2003-01-01,Gus Xia,0.0
+Beverages,2003-01-01,Ratan Dey,0.0
+Business Services,2003-01-01,Xianbin Gu,0.0
+Business Services,2003-01-01,Siyao Guo,0.0
+Telecommunications,2003-01-01,Oliver Marin,39.0
+Technology,2003-01-01,Zheng Zhang,70.0
+Technology,2003-01-01,Bruno Abrahao,10.0
+Telecommunications,2004-01-01,Keith Ross,901.0
+Beverages,2004-01-01,Romain,0.0
+Tobacco,2004-01-01,Shuyang Ling,0.0
+Business Services,2004-01-01,Enric Junque,0.0
+Diversified,2004-01-01,Zhibin Chen,0.0
+Tobacco,2004-01-01,Gus Xia,0.0
+Media,2004-01-01,Ratan Dey,0.0
+Restaurants,2004-01-01,Xianbin Gu,0.0
+Diversified,2004-01-01,Siyao Guo,0.0
+Media,2004-01-01,Oliver Marin,65.0
+Beverages,2004-01-01,Zheng Zhang,150.0
+Media,2004-01-01,Bruno Abrahao,10.0
+Tobacco,2005-01-01,Keith Ross,938.0
+Technology,2005-01-01,Romain,0.0
+Diversified,2005-01-01,Shuyang Ling,0.0
+Telecommunications,2005-01-01,Enric Junque,0.0
+Telecommunications,2005-01-01,Zhibin Chen,0.0
+Automotive,2005-01-01,Gus Xia,0.0
+Technology,2005-01-01,Ratan Dey,0.0
+Tobacco,2005-01-01,Xianbin Gu,0.0
+Telecommunications,2005-01-01,Siyao Guo,0.0
+Media,2005-01-01,Oliver Marin,61.0
+Business Services,2005-01-01,Zheng Zhang,187.0
+Media,2005-01-01,Bruno Abrahao,20.0
+Business Services,2006-01-01,Keith Ross,1062.0
+Technology,2006-01-01,Romain,0.0
+Restaurants,2006-01-01,Shuyang Ling,0.0
+Business Services,2006-01-01,Enric Junque,0.0
+Telecommunications,2006-01-01,Zhibin Chen,0.0
+Media,2006-01-01,Gus Xia,0.0
+Beverages,2006-01-01,Ratan Dey,0.0
+Diversified,2006-01-01,Xianbin Gu,0.0
+Restaurants,2006-01-01,Siyao Guo,0.0
+Beverages,2006-01-01,Oliver Marin,83.0
+Restaurants,2006-01-01,Zheng Zhang,255.0
+Telecommunications,2006-01-01,Bruno Abrahao,20.0
+Business Services,2007-01-01,Keith Ross,1263.0
+Business Services,2007-01-01,Romain,0.0
+Restaurants,2007-01-01,Shuyang Ling,0.0
+Media,2007-01-01,Enric Junque,0.0
+Automotive,2007-01-01,Zhibin Chen,0.0
+Technology,2007-01-01,Gus Xia,0.0
+Business Services,2007-01-01,Ratan Dey,0.0
+Media,2007-01-01,Xianbin Gu,0.0
+Beverages,2007-01-01,Siyao Guo,0.0
+Business Services,2007-01-01,Oliver Marin,97.0
+Diversified,2007-01-01,Zheng Zhang,315.0
+Technology,2007-01-01,Bruno Abrahao,21.0
+Media,2008-01-01,Keith Ross,1573.0
+Business Services,2008-01-01,Romain,0.0
+Telecommunications,2008-01-01,Shuyang Ling,0.0
+Restaurants,2008-01-01,Enric Junque,0.0
+Media,2008-01-01,Zhibin Chen,0.0
+Tobacco,2008-01-01,Gus Xia,0.0
+Business Services,2008-01-01,Ratan Dey,0.0
+Media,2008-01-01,Xianbin Gu,0.0
+Technology,2008-01-01,Siyao Guo,0.0
+Media,2008-01-01,Oliver Marin,66.0
+Restaurants,2008-01-01,Zheng Zhang,408.0
+Tobacco,2008-01-01,Bruno Abrahao,17.0
+Telecommunications,2009-01-01,Keith Ross,1758.0
+Automotive,2009-01-01,Romain,0.0
+Automotive,2009-01-01,Shuyang Ling,0.0
+Tobacco,2009-01-01,Enric Junque,0.0
+Beverages,2009-01-01,Zhibin Chen,0.0
+Automotive,2009-01-01,Gus Xia,0.0
+Tobacco,2009-01-01,Ratan Dey,0.0
+Automotive,2009-01-01,Xianbin Gu,1.0
+Diversified,2009-01-01,Siyao Guo,0.0
+Restaurants,2009-01-01,Oliver Marin,94.0
+Telecommunications,2009-01-01,Zheng Zhang,490.0
+Restaurants,2009-01-01,Bruno Abrahao,26.0
+Telecommunications,2010-01-01,Keith Ross,1897.0
+Media,2010-01-01,Romain,1.0
+Automotive,2010-01-01,Shuyang Ling,0.0
+Automotive,2010-01-01,Enric Junque,0.0
+Automotive,2010-01-01,Zhibin Chen,0.0
+Technology,2010-01-01,Gus Xia,0.0
+Telecommunications,2010-01-01,Ratan Dey,0.0
+Technology,2010-01-01,Xianbin Gu,3.0
+Restaurants,2010-01-01,Siyao Guo,0.0
+Telecommunications,2010-01-01,Oliver Marin,88.0
+Tobacco,2010-01-01,Zheng Zhang,625.0
+Diversified,2010-01-01,Bruno Abrahao,39.0
+Tobacco,2011-01-01,Keith Ross,2013.0
+Technology,2011-01-01,Romain,7.0
+Telecommunications,2011-01-01,Shuyang Ling,0.0
+Tobacco,2011-01-01,Enric Junque,0.0
+Business Services,2011-01-01,Zhibin Chen,0.0
+Diversified,2011-01-01,Gus Xia,0.0
+Media,2011-01-01,Ratan Dey,0.0
+Business Services,2011-01-01,Xianbin Gu,1.0
+Diversified,2011-01-01,Siyao Guo,0.0
+Beverages,2011-01-01,Oliver Marin,48.0
+Telecommunications,2011-01-01,Zheng Zhang,547.0
+Tobacco,2011-01-01,Bruno Abrahao,22.0
+Technology,2012-01-01,Keith Ross,1921.0
+Beverages,2012-01-01,Romain,19.0
+Restaurants,2012-01-01,Shuyang Ling,0.0
+Telecommunications,2012-01-01,Enric Junque,2.0
+Diversified,2012-01-01,Zhibin Chen,0.0
+Diversified,2012-01-01,Gus Xia,8.0
+Technology,2012-01-01,Ratan Dey,20.0
+Technology,2012-01-01,Xianbin Gu,1.0
+Business Services,2012-01-01,Siyao Guo,0.0
+Business Services,2012-01-01,Oliver Marin,53.0
+Business Services,2012-01-01,Zheng Zhang,465.0
+Media,2012-01-01,Bruno Abrahao,46.0
+Technology,2013-01-01,Keith Ross,1661.0
+Technology,2013-01-01,Romain,23.0
+Tobacco,2013-01-01,Shuyang Ling,0.0
+Business Services,2013-01-01,Enric Junque,11.0
+Diversified,2013-01-01,Zhibin Chen,0.0
+Automotive,2013-01-01,Gus Xia,7.0
+Media,2013-01-01,Ratan Dey,32.0
+Media,2013-01-01,Xianbin Gu,4.0
+Telecommunications,2013-01-01,Siyao Guo,1.0
+Tobacco,2013-01-01,Oliver Marin,51.0
+Technology,2013-01-01,Zheng Zhang,506.0
+Restaurants,2013-01-01,Bruno Abrahao,40.0
+Diversified,2014-01-01,Keith Ross,1546.0
+Diversified,2014-01-01,Romain,22.0
+Business Services,2014-01-01,Shuyang Ling,0.0
+Beverages,2014-01-01,Enric Junque,29.0
+Automotive,2014-01-01,Zhibin Chen,0.0
+Restaurants,2014-01-01,Gus Xia,13.0
+Telecommunications,2014-01-01,Ratan Dey,59.0
+Telecommunications,2014-01-01,Xianbin Gu,3.0
+Restaurants,2014-01-01,Siyao Guo,7.0
+Beverages,2014-01-01,Oliver Marin,45.0
+Media,2014-01-01,Zheng Zhang,467.0
+Business Services,2014-01-01,Bruno Abrahao,58.0
+Media,2015-01-01,Keith Ross,1499.0
+Tobacco,2015-01-01,Romain,37.0
+Technology,2015-01-01,Shuyang Ling,10.0
+Telecommunications,2015-01-01,Enric Junque,50.0
+Beverages,2015-01-01,Zhibin Chen,5.0
+Business Services,2015-01-01,Gus Xia,15.0
+Business Services,2015-01-01,Ratan Dey,71.0
+Technology,2015-01-01,Xianbin Gu,8.0
+Technology,2015-01-01,Siyao Guo,12.0
+Automotive,2015-01-01,Oliver Marin,84.0
+Media,2015-01-01,Zheng Zhang,464.0
+Beverages,2015-01-01,Bruno Abrahao,44.0
+Diversified,2016-01-01,Keith Ross,1537.0
+Beverages,2016-01-01,Romain,52.0
+Beverages,2016-01-01,Shuyang Ling,47.0
+Media,2016-01-01,Enric Junque,57.0
+Diversified,2016-01-01,Zhibin Chen,20.0
+Technology,2016-01-01,Gus Xia,28.0
+Telecommunications,2016-01-01,Ratan Dey,75.0
+Diversified,2016-01-01,Xianbin Gu,4.0
+Restaurants,2016-01-01,Siyao Guo,32.0
+Telecommunications,2016-01-01,Oliver Marin,86.0
+Technology,2016-01-01,Zheng Zhang,566.0
+Beverages,2016-01-01,Bruno Abrahao,56.0
+Technology,2017-01-01,Keith Ross,1476.0
+Tobacco,2017-01-01,Romain,51.0
+Automotive,2017-01-01,Shuyang Ling,90.0
+Automotive,2017-01-01,Enric Junque,95.0
+Automotive,2017-01-01,Zhibin Chen,54.0
+Beverages,2017-01-01,Gus Xia,27.0
+Beverages,2017-01-01,Ratan Dey,61.0
+Technology,2017-01-01,Xianbin Gu,1.0
+Beverages,2017-01-01,Siyao Guo,43.0
+Technology,2017-01-01,Oliver Marin,66.0
+Beverages,2017-01-01,Zheng Zhang,693.0
+Media,2017-01-01,Bruno Abrahao,32.0
+Technology,2018-01-01,Keith Ross,1387.0
+Telecommunications,2018-01-01,Romain,72.0
+Beverages,2018-01-01,Shuyang Ling,127.0
+Diversified,2018-01-01,Enric Junque,116.0
+Restaurants,2018-01-01,Zhibin Chen,105.0
+Diversified,2018-01-01,Gus Xia,35.0
+Automotive,2018-01-01,Ratan Dey,56.0
+Beverages,2018-01-01,Xianbin Gu,5.0
+Beverages,2018-01-01,Siyao Guo,93.0
+Diversified,2018-01-01,Oliver Marin,71.0
+Beverages,2018-01-01,Zheng Zhang,964.0
+Business Services,2018-01-01,Bruno Abrahao,40.0
+Technology,2019-01-01,Keith Ross,1311.0
+Beverages,2019-01-01,Romain,53.0
+Business Services,2019-01-01,Shuyang Ling,163.0
+Automotive,2019-01-01,Enric Junque,144.0
+Technology,2019-01-01,Zhibin Chen,163.0
+Technology,2019-01-01,Gus Xia,32.0
+Telecommunications,2019-01-01,Ratan Dey,51.0
+Business Services,2019-01-01,Xianbin Gu,3.0
+Media,2019-01-01,Siyao Guo,98.0
+Business Services,2019-01-01,Oliver Marin,53.0
+Restaurants,2019-01-01,Zheng Zhang,1139.0
+Business Services,2019-01-01,Bruno Abrahao,73.0
+Restaurants,2020-01-01,Keith Ross,880.0
+Telecommunications,2020-01-01,Romain,50.0
+Business Services,2020-01-01,Shuyang Ling,135.0
+Telecommunications,2020-01-01,Enric Junque,134.0
+Business Services,2020-01-01,Zhibin Chen,166.0
+Technology,2020-01-01,Gus Xia,90.0
+Beverages,2020-01-01,Ratan Dey,57.0
+Technology,2020-01-01,Xianbin Gu,0.0
+Telecommunications,2020-01-01,Siyao Guo,90.0
+Tobacco,2020-01-01,Oliver Marin,79.0
+Diversified,2020-01-01,Zheng Zhang,919.0
+Business Services,2020-01-01,Bruno Abrahao,90.0

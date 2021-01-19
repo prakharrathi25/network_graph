@@ -1,0 +1,193 @@
+category,date,name,value
+Beverages,2009-01-01,Shuyang Ling,0.0
+Beverages,2009-01-01,Enric Junque,0.0
+Telecommunications,2009-01-01,Zhibin Chen,0.0
+Technology,2009-01-01,Gus Xia,0.0
+Telecommunications,2009-01-01,Ratan Dey,0.0
+Beverages,2009-01-01,Xianbin Gu,1.0
+Diversified,2009-01-01,Siyao Guo,0.0
+Beverages,2009-01-01,Maeda F,2.0
+Telecommunications,2009-01-01,Hanafi,0.0
+Tobacco,2009-01-01,Miro Mannino,0.0
+Automotive,2009-01-01,Nasser Zalmout,0.0
+Media,2009-01-01,Salam Khalifa,0.0
+Restaurants,2009-01-01,Bashar Alhafni,0.0
+Telecommunications,2009-01-01,Marcin Waniek,0.0
+Tobacco,2009-01-01,Talal Ahmad,0.0
+Diversified,2009-01-01,Shujaat Mirza,0.0
+Diversified,2010-01-01,Shuyang Ling,0.0
+Diversified,2010-01-01,Enric Junque,0.0
+Tobacco,2010-01-01,Zhibin Chen,0.0
+Technology,2010-01-01,Gus Xia,0.0
+Diversified,2010-01-01,Ratan Dey,0.0
+Automotive,2010-01-01,Xianbin Gu,4.0
+Automotive,2010-01-01,Siyao Guo,0.0
+Business Services,2010-01-01,Maeda F,4.0
+Business Services,2010-01-01,Hanafi,0.0
+Technology,2010-01-01,Miro Mannino,0.0
+Telecommunications,2010-01-01,Nasser Zalmout,0.0
+Technology,2010-01-01,Salam Khalifa,0.0
+Tobacco,2010-01-01,Bashar Alhafni,0.0
+Diversified,2010-01-01,Marcin Waniek,0.0
+Business Services,2010-01-01,Talal Ahmad,0.0
+Automotive,2010-01-01,Shujaat Mirza,0.0
+Telecommunications,2011-01-01,Shuyang Ling,0.0
+Technology,2011-01-01,Enric Junque,0.0
+Diversified,2011-01-01,Zhibin Chen,0.0
+Business Services,2011-01-01,Gus Xia,0.0
+Beverages,2011-01-01,Ratan Dey,0.0
+Tobacco,2011-01-01,Xianbin Gu,5.0
+Telecommunications,2011-01-01,Siyao Guo,0.0
+Media,2011-01-01,Maeda F,11.0
+Automotive,2011-01-01,Hanafi,0.0
+Tobacco,2011-01-01,Miro Mannino,0.0
+Diversified,2011-01-01,Nasser Zalmout,0.0
+Diversified,2011-01-01,Salam Khalifa,0.0
+Tobacco,2011-01-01,Bashar Alhafni,0.0
+Technology,2011-01-01,Marcin Waniek,0.0
+Automotive,2011-01-01,Talal Ahmad,0.0
+Business Services,2011-01-01,Shujaat Mirza,0.0
+Diversified,2012-01-01,Shuyang Ling,0.0
+Tobacco,2012-01-01,Enric Junque,2.0
+Tobacco,2012-01-01,Zhibin Chen,0.0
+Beverages,2012-01-01,Gus Xia,8.0
+Media,2012-01-01,Ratan Dey,20.0
+Restaurants,2012-01-01,Xianbin Gu,6.0
+Diversified,2012-01-01,Siyao Guo,0.0
+Restaurants,2012-01-01,Maeda F,30.0
+Business Services,2012-01-01,Hanafi,0.0
+Automotive,2012-01-01,Miro Mannino,0.0
+Technology,2012-01-01,Nasser Zalmout,0.0
+Telecommunications,2012-01-01,Salam Khalifa,0.0
+Beverages,2012-01-01,Bashar Alhafni,0.0
+Automotive,2012-01-01,Marcin Waniek,0.0
+Diversified,2012-01-01,Talal Ahmad,0.0
+Media,2012-01-01,Shujaat Mirza,0.0
+Automotive,2013-01-01,Shuyang Ling,0.0
+Diversified,2013-01-01,Enric Junque,13.0
+Beverages,2013-01-01,Zhibin Chen,0.0
+Telecommunications,2013-01-01,Gus Xia,15.0
+Media,2013-01-01,Ratan Dey,52.0
+Diversified,2013-01-01,Xianbin Gu,10.0
+Media,2013-01-01,Siyao Guo,1.0
+Automotive,2013-01-01,Maeda F,49.0
+Restaurants,2013-01-01,Hanafi,0.0
+Beverages,2013-01-01,Miro Mannino,0.0
+Media,2013-01-01,Nasser Zalmout,2.0
+Tobacco,2013-01-01,Salam Khalifa,0.0
+Business Services,2013-01-01,Bashar Alhafni,0.0
+Business Services,2013-01-01,Marcin Waniek,0.0
+Media,2013-01-01,Talal Ahmad,0.0
+Telecommunications,2013-01-01,Shujaat Mirza,0.0
+Automotive,2014-01-01,Shuyang Ling,0.0
+Diversified,2014-01-01,Enric Junque,42.0
+Tobacco,2014-01-01,Zhibin Chen,0.0
+Automotive,2014-01-01,Gus Xia,28.0
+Beverages,2014-01-01,Ratan Dey,111.0
+Restaurants,2014-01-01,Xianbin Gu,13.0
+Media,2014-01-01,Siyao Guo,8.0
+Automotive,2014-01-01,Maeda F,81.0
+Telecommunications,2014-01-01,Hanafi,0.0
+Technology,2014-01-01,Miro Mannino,0.0
+Media,2014-01-01,Nasser Zalmout,8.0
+Automotive,2014-01-01,Salam Khalifa,0.0
+Automotive,2014-01-01,Bashar Alhafni,0.0
+Business Services,2014-01-01,Marcin Waniek,0.0
+Diversified,2014-01-01,Talal Ahmad,1.0
+Automotive,2014-01-01,Shujaat Mirza,0.0
+Diversified,2015-01-01,Shuyang Ling,10.0
+Business Services,2015-01-01,Enric Junque,92.0
+Media,2015-01-01,Zhibin Chen,5.0
+Tobacco,2015-01-01,Gus Xia,43.0
+Restaurants,2015-01-01,Ratan Dey,182.0
+Telecommunications,2015-01-01,Xianbin Gu,21.0
+Tobacco,2015-01-01,Siyao Guo,20.0
+Business Services,2015-01-01,Maeda F,99.0
+Technology,2015-01-01,Hanafi,0.0
+Media,2015-01-01,Miro Mannino,0.0
+Beverages,2015-01-01,Nasser Zalmout,17.0
+Telecommunications,2015-01-01,Salam Khalifa,0.0
+Beverages,2015-01-01,Bashar Alhafni,0.0
+Beverages,2015-01-01,Marcin Waniek,0.0
+Restaurants,2015-01-01,Talal Ahmad,10.0
+Automotive,2015-01-01,Shujaat Mirza,0.0
+Automotive,2016-01-01,Shuyang Ling,57.0
+Telecommunications,2016-01-01,Enric Junque,149.0
+Business Services,2016-01-01,Zhibin Chen,25.0
+Restaurants,2016-01-01,Gus Xia,71.0
+Beverages,2016-01-01,Ratan Dey,257.0
+Telecommunications,2016-01-01,Xianbin Gu,25.0
+Beverages,2016-01-01,Siyao Guo,52.0
+Telecommunications,2016-01-01,Maeda F,135.0
+Beverages,2016-01-01,Hanafi,0.0
+Technology,2016-01-01,Miro Mannino,0.0
+Business Services,2016-01-01,Nasser Zalmout,38.0
+Automotive,2016-01-01,Salam Khalifa,10.0
+Diversified,2016-01-01,Bashar Alhafni,0.0
+Diversified,2016-01-01,Marcin Waniek,7.0
+Restaurants,2016-01-01,Talal Ahmad,24.0
+Restaurants,2016-01-01,Shujaat Mirza,0.0
+Business Services,2017-01-01,Shuyang Ling,147.0
+Beverages,2017-01-01,Enric Junque,244.0
+Automotive,2017-01-01,Zhibin Chen,79.0
+Automotive,2017-01-01,Gus Xia,98.0
+Diversified,2017-01-01,Ratan Dey,318.0
+Diversified,2017-01-01,Xianbin Gu,26.0
+Diversified,2017-01-01,Siyao Guo,95.0
+Technology,2017-01-01,Maeda F,160.0
+Telecommunications,2017-01-01,Hanafi,2.0
+Beverages,2017-01-01,Miro Mannino,0.0
+Restaurants,2017-01-01,Nasser Zalmout,103.0
+Beverages,2017-01-01,Salam Khalifa,42.0
+Telecommunications,2017-01-01,Bashar Alhafni,0.0
+Automotive,2017-01-01,Marcin Waniek,19.0
+Business Services,2017-01-01,Talal Ahmad,39.0
+Telecommunications,2017-01-01,Shujaat Mirza,0.0
+Restaurants,2018-01-01,Shuyang Ling,274.0
+Beverages,2018-01-01,Enric Junque,360.0
+Restaurants,2018-01-01,Zhibin Chen,184.0
+Telecommunications,2018-01-01,Gus Xia,133.0
+Business Services,2018-01-01,Ratan Dey,374.0
+Media,2018-01-01,Xianbin Gu,31.0
+Telecommunications,2018-01-01,Siyao Guo,188.0
+Business Services,2018-01-01,Maeda F,178.0
+Automotive,2018-01-01,Hanafi,12.0
+Business Services,2018-01-01,Miro Mannino,5.0
+Telecommunications,2018-01-01,Nasser Zalmout,173.0
+Business Services,2018-01-01,Salam Khalifa,95.0
+Automotive,2018-01-01,Bashar Alhafni,0.0
+Beverages,2018-01-01,Marcin Waniek,34.0
+Diversified,2018-01-01,Talal Ahmad,59.0
+Tobacco,2018-01-01,Shujaat Mirza,0.0
+Diversified,2019-01-01,Shuyang Ling,437.0
+Beverages,2019-01-01,Enric Junque,504.0
+Technology,2019-01-01,Zhibin Chen,347.0
+Media,2019-01-01,Gus Xia,165.0
+Tobacco,2019-01-01,Ratan Dey,425.0
+Restaurants,2019-01-01,Xianbin Gu,34.0
+Technology,2019-01-01,Siyao Guo,286.0
+Telecommunications,2019-01-01,Maeda F,200.0
+Tobacco,2019-01-01,Hanafi,18.0
+Telecommunications,2019-01-01,Miro Mannino,18.0
+Automotive,2019-01-01,Nasser Zalmout,270.0
+Media,2019-01-01,Salam Khalifa,162.0
+Restaurants,2019-01-01,Bashar Alhafni,2.0
+Media,2019-01-01,Marcin Waniek,73.0
+Beverages,2019-01-01,Talal Ahmad,87.0
+Media,2019-01-01,Shujaat Mirza,1.0
+Automotive,2020-01-01,Shuyang Ling,572.0
+Automotive,2020-01-01,Enric Junque,638.0
+Restaurants,2020-01-01,Zhibin Chen,513.0
+Restaurants,2020-01-01,Gus Xia,255.0
+Restaurants,2020-01-01,Ratan Dey,482.0
+Diversified,2020-01-01,Xianbin Gu,34.0
+Media,2020-01-01,Siyao Guo,376.0
+Diversified,2020-01-01,Maeda F,219.0
+Media,2020-01-01,Hanafi,24.0
+Beverages,2020-01-01,Miro Mannino,36.0
+Diversified,2020-01-01,Nasser Zalmout,270.0
+Technology,2020-01-01,Salam Khalifa,256.0
+Beverages,2020-01-01,Bashar Alhafni,11.0
+Restaurants,2020-01-01,Marcin Waniek,117.0
+Business Services,2020-01-01,Talal Ahmad,107.0
+Automotive,2020-01-01,Shujaat Mirza,4.0

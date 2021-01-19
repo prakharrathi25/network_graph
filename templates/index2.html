@@ -1,0 +1,83 @@
+<!-- THIS NEEDS TO FIX REPLAY BUTTON -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Race</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/inspector.css') }}">
+</head>
+ 
+<body>
+    <!-- <script src="https://d3js.org/d3.v3.js"></script> -->
+    <!-- <script src='index.js'></script> -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">KnowMyProfessor.com</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/">Select School <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/">NYU</a></li>
+                <li><a href="/NYU_Shanghai">NYU Shanghai</a></li>
+                <li><a href="/NYU_AbuDhabi">NYU AbuDhabi</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/">Start Race <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/race/NYU">by yearly citation</a></li>
+                  <li><a href="/race/NYU/total_">by total citation</a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Start Another Race!!!</button>
+        <div id="myDropdown" class="dropdown-content">
+        <a href="/race/NYU">All NYU Professors by Yearly Citation</a>
+        <a href="/race/NYUsh">NYU Shanghai Professors by Yearly Citation</a>
+        <a href="/race/NYUad">NYU AbuDhabi Professors by Yearly Citation</a>
+        <a href="/race/Young">Young Professors by Yearly Citation</a>
+        </div>
+    </div>
+    <h3>Current Race: between {{name}} professors by yearly citations</h3>
+    <script type="module">
+        import define from "{{ url_for('static', filename= 'js/index.js') }}";
+        import {Runtime, Library, Inspector} from "{{ url_for('static', filename= 'js/runtime.js') }}";
+
+        const runtime = new Runtime();
+        const main = runtime.module(define, Inspector.into(document.body));
+    </script>
+
+    
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+                }
+            }
+            }
+    </script>
+</body>
+
+</html>

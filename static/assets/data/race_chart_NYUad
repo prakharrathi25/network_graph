@@ -1,0 +1,286 @@
+category,date,name,value
+Restaurants,2002-01-01,Azza Abouzied,0.0
+Diversified,2002-01-01,Maeda F,0.0
+Beverages,2002-01-01,Hanafi,0.0
+Telecommunications,2002-01-01,Miro Mannino,0.0
+Technology,2002-01-01,Nizar Habash,44.0
+Diversified,2002-01-01,Nasser Zalmout,0.0
+Media,2002-01-01,Salam Khalifa,0.0
+Media,2002-01-01,Bashar Alhafni,0.0
+Media,2002-01-01,Talal Rahwan,0.0
+Media,2002-01-01,Marcin Waniek,0.0
+Business Services,2002-01-01,Talal Rahwan,0.0
+Media,2002-01-01,Yasir Zaki,0.0
+Business Services,2002-01-01,Talal Ahmad,0.0
+Restaurants,2002-01-01,Christina Pöpper,0.0
+Media,2002-01-01,Shujaat Mirza,0.0
+Technology,2003-01-01,Azza Abouzied,0.0
+Restaurants,2003-01-01,Maeda F,0.0
+Tobacco,2003-01-01,Hanafi,0.0
+Automotive,2003-01-01,Miro Mannino,0.0
+Media,2003-01-01,Nizar Habash,55.0
+Business Services,2003-01-01,Nasser Zalmout,0.0
+Tobacco,2003-01-01,Salam Khalifa,0.0
+Tobacco,2003-01-01,Bashar Alhafni,0.0
+Media,2003-01-01,Talal Rahwan,0.0
+Technology,2003-01-01,Marcin Waniek,0.0
+Telecommunications,2003-01-01,Talal Rahwan,0.0
+Business Services,2003-01-01,Yasir Zaki,0.0
+Business Services,2003-01-01,Talal Ahmad,0.0
+Media,2003-01-01,Christina Pöpper,0.0
+Telecommunications,2003-01-01,Shujaat Mirza,0.0
+Beverages,2004-01-01,Azza Abouzied,0.0
+Telecommunications,2004-01-01,Maeda F,0.0
+Tobacco,2004-01-01,Hanafi,0.0
+Restaurants,2004-01-01,Miro Mannino,0.0
+Media,2004-01-01,Nizar Habash,54.0
+Tobacco,2004-01-01,Nasser Zalmout,0.0
+Technology,2004-01-01,Salam Khalifa,0.0
+Tobacco,2004-01-01,Bashar Alhafni,0.0
+Beverages,2004-01-01,Talal Rahwan,0.0
+Business Services,2004-01-01,Marcin Waniek,0.0
+Technology,2004-01-01,Talal Rahwan,0.0
+Technology,2004-01-01,Yasir Zaki,0.0
+Beverages,2004-01-01,Talal Ahmad,0.0
+Restaurants,2004-01-01,Christina Pöpper,0.0
+Beverages,2004-01-01,Shujaat Mirza,0.0
+Restaurants,2005-01-01,Azza Abouzied,0.0
+Media,2005-01-01,Maeda F,0.0
+Diversified,2005-01-01,Hanafi,0.0
+Technology,2005-01-01,Miro Mannino,0.0
+Tobacco,2005-01-01,Nizar Habash,68.0
+Automotive,2005-01-01,Nasser Zalmout,0.0
+Diversified,2005-01-01,Salam Khalifa,0.0
+Automotive,2005-01-01,Bashar Alhafni,0.0
+Automotive,2005-01-01,Talal Rahwan,12.0
+Business Services,2005-01-01,Marcin Waniek,0.0
+Restaurants,2005-01-01,Talal Rahwan,12.0
+Diversified,2005-01-01,Yasir Zaki,0.0
+Tobacco,2005-01-01,Talal Ahmad,0.0
+Media,2005-01-01,Christina Pöpper,0.0
+Restaurants,2005-01-01,Shujaat Mirza,0.0
+Technology,2006-01-01,Azza Abouzied,0.0
+Media,2006-01-01,Maeda F,0.0
+Media,2006-01-01,Hanafi,0.0
+Tobacco,2006-01-01,Miro Mannino,0.0
+Automotive,2006-01-01,Nizar Habash,113.0
+Restaurants,2006-01-01,Nasser Zalmout,0.0
+Automotive,2006-01-01,Salam Khalifa,0.0
+Technology,2006-01-01,Bashar Alhafni,0.0
+Restaurants,2006-01-01,Talal Rahwan,6.0
+Automotive,2006-01-01,Marcin Waniek,0.0
+Telecommunications,2006-01-01,Talal Rahwan,6.0
+Restaurants,2006-01-01,Yasir Zaki,0.0
+Beverages,2006-01-01,Talal Ahmad,0.0
+Telecommunications,2006-01-01,Christina Pöpper,0.0
+Automotive,2006-01-01,Shujaat Mirza,0.0
+Telecommunications,2007-01-01,Azza Abouzied,0.0
+Restaurants,2007-01-01,Maeda F,0.0
+Telecommunications,2007-01-01,Hanafi,0.0
+Technology,2007-01-01,Miro Mannino,0.0
+Telecommunications,2007-01-01,Nizar Habash,138.0
+Tobacco,2007-01-01,Nasser Zalmout,0.0
+Automotive,2007-01-01,Salam Khalifa,0.0
+Diversified,2007-01-01,Bashar Alhafni,0.0
+Restaurants,2007-01-01,Talal Rahwan,25.0
+Media,2007-01-01,Marcin Waniek,0.0
+Business Services,2007-01-01,Talal Rahwan,25.0
+Technology,2007-01-01,Yasir Zaki,0.0
+Business Services,2007-01-01,Talal Ahmad,0.0
+Business Services,2007-01-01,Christina Pöpper,0.0
+Media,2007-01-01,Shujaat Mirza,0.0
+Media,2008-01-01,Azza Abouzied,0.0
+Tobacco,2008-01-01,Maeda F,0.0
+Beverages,2008-01-01,Hanafi,0.0
+Media,2008-01-01,Miro Mannino,0.0
+Beverages,2008-01-01,Nizar Habash,218.0
+Beverages,2008-01-01,Nasser Zalmout,0.0
+Media,2008-01-01,Salam Khalifa,0.0
+Media,2008-01-01,Bashar Alhafni,0.0
+Business Services,2008-01-01,Talal Rahwan,39.0
+Telecommunications,2008-01-01,Marcin Waniek,0.0
+Restaurants,2008-01-01,Talal Rahwan,39.0
+Technology,2008-01-01,Yasir Zaki,0.0
+Business Services,2008-01-01,Talal Ahmad,0.0
+Technology,2008-01-01,Christina Pöpper,8.0
+Tobacco,2008-01-01,Shujaat Mirza,0.0
+Telecommunications,2009-01-01,Azza Abouzied,14.0
+Business Services,2009-01-01,Maeda F,2.0
+Beverages,2009-01-01,Hanafi,0.0
+Restaurants,2009-01-01,Miro Mannino,0.0
+Technology,2009-01-01,Nizar Habash,222.0
+Tobacco,2009-01-01,Nasser Zalmout,0.0
+Automotive,2009-01-01,Salam Khalifa,0.0
+Restaurants,2009-01-01,Bashar Alhafni,0.0
+Automotive,2009-01-01,Talal Rahwan,89.0
+Telecommunications,2009-01-01,Marcin Waniek,0.0
+Tobacco,2009-01-01,Talal Rahwan,89.0
+Beverages,2009-01-01,Yasir Zaki,4.0
+Technology,2009-01-01,Talal Ahmad,0.0
+Automotive,2009-01-01,Christina Pöpper,39.0
+Business Services,2009-01-01,Shujaat Mirza,0.0
+Automotive,2010-01-01,Azza Abouzied,99.0
+Restaurants,2010-01-01,Maeda F,2.0
+Diversified,2010-01-01,Hanafi,0.0
+Beverages,2010-01-01,Miro Mannino,0.0
+Business Services,2010-01-01,Nizar Habash,349.0
+Automotive,2010-01-01,Nasser Zalmout,0.0
+Automotive,2010-01-01,Salam Khalifa,0.0
+Restaurants,2010-01-01,Bashar Alhafni,0.0
+Restaurants,2010-01-01,Talal Rahwan,92.0
+Beverages,2010-01-01,Marcin Waniek,0.0
+Automotive,2010-01-01,Talal Rahwan,92.0
+Tobacco,2010-01-01,Yasir Zaki,9.0
+Restaurants,2010-01-01,Talal Ahmad,0.0
+Business Services,2010-01-01,Christina Pöpper,109.0
+Automotive,2010-01-01,Shujaat Mirza,0.0
+Diversified,2011-01-01,Azza Abouzied,129.0
+Tobacco,2011-01-01,Maeda F,7.0
+Diversified,2011-01-01,Hanafi,0.0
+Diversified,2011-01-01,Miro Mannino,0.0
+Restaurants,2011-01-01,Nizar Habash,376.0
+Telecommunications,2011-01-01,Nasser Zalmout,0.0
+Media,2011-01-01,Salam Khalifa,0.0
+Automotive,2011-01-01,Bashar Alhafni,0.0
+Tobacco,2011-01-01,Talal Rahwan,118.0
+Telecommunications,2011-01-01,Marcin Waniek,0.0
+Automotive,2011-01-01,Talal Rahwan,118.0
+Technology,2011-01-01,Yasir Zaki,24.0
+Restaurants,2011-01-01,Talal Ahmad,0.0
+Business Services,2011-01-01,Christina Pöpper,129.0
+Automotive,2011-01-01,Shujaat Mirza,0.0
+Beverages,2012-01-01,Azza Abouzied,157.0
+Media,2012-01-01,Maeda F,19.0
+Tobacco,2012-01-01,Hanafi,0.0
+Business Services,2012-01-01,Miro Mannino,0.0
+Diversified,2012-01-01,Nizar Habash,526.0
+Media,2012-01-01,Nasser Zalmout,0.0
+Beverages,2012-01-01,Salam Khalifa,0.0
+Diversified,2012-01-01,Bashar Alhafni,0.0
+Automotive,2012-01-01,Talal Rahwan,114.0
+Media,2012-01-01,Marcin Waniek,0.0
+Diversified,2012-01-01,Talal Rahwan,114.0
+Restaurants,2012-01-01,Yasir Zaki,89.0
+Automotive,2012-01-01,Talal Ahmad,0.0
+Restaurants,2012-01-01,Christina Pöpper,151.0
+Telecommunications,2012-01-01,Shujaat Mirza,0.0
+Diversified,2013-01-01,Azza Abouzied,215.0
+Telecommunications,2013-01-01,Maeda F,19.0
+Restaurants,2013-01-01,Hanafi,0.0
+Diversified,2013-01-01,Miro Mannino,0.0
+Media,2013-01-01,Nizar Habash,639.0
+Beverages,2013-01-01,Nasser Zalmout,2.0
+Tobacco,2013-01-01,Salam Khalifa,0.0
+Restaurants,2013-01-01,Bashar Alhafni,0.0
+Automotive,2013-01-01,Talal Rahwan,176.0
+Restaurants,2013-01-01,Marcin Waniek,0.0
+Diversified,2013-01-01,Talal Rahwan,176.0
+Beverages,2013-01-01,Yasir Zaki,101.0
+Restaurants,2013-01-01,Talal Ahmad,0.0
+Tobacco,2013-01-01,Christina Pöpper,165.0
+Business Services,2013-01-01,Shujaat Mirza,0.0
+Tobacco,2014-01-01,Azza Abouzied,267.0
+Automotive,2014-01-01,Maeda F,32.0
+Beverages,2014-01-01,Hanafi,0.0
+Restaurants,2014-01-01,Miro Mannino,0.0
+Technology,2014-01-01,Nizar Habash,934.0
+Tobacco,2014-01-01,Nasser Zalmout,6.0
+Telecommunications,2014-01-01,Salam Khalifa,0.0
+Restaurants,2014-01-01,Bashar Alhafni,0.0
+Telecommunications,2014-01-01,Talal Rahwan,174.0
+Business Services,2014-01-01,Marcin Waniek,0.0
+Technology,2014-01-01,Talal Rahwan,174.0
+Business Services,2014-01-01,Yasir Zaki,137.0
+Diversified,2014-01-01,Talal Ahmad,1.0
+Business Services,2014-01-01,Christina Pöpper,166.0
+Technology,2014-01-01,Shujaat Mirza,0.0
+Tobacco,2015-01-01,Azza Abouzied,241.0
+Telecommunications,2015-01-01,Maeda F,18.0
+Beverages,2015-01-01,Hanafi,0.0
+Media,2015-01-01,Miro Mannino,0.0
+Beverages,2015-01-01,Nizar Habash,856.0
+Restaurants,2015-01-01,Nasser Zalmout,9.0
+Technology,2015-01-01,Salam Khalifa,0.0
+Tobacco,2015-01-01,Bashar Alhafni,0.0
+Media,2015-01-01,Talal Rahwan,187.0
+Technology,2015-01-01,Marcin Waniek,0.0
+Media,2015-01-01,Talal Rahwan,187.0
+Automotive,2015-01-01,Yasir Zaki,185.0
+Business Services,2015-01-01,Talal Ahmad,9.0
+Media,2015-01-01,Christina Pöpper,190.0
+Business Services,2015-01-01,Shujaat Mirza,0.0
+Restaurants,2016-01-01,Azza Abouzied,227.0
+Diversified,2016-01-01,Maeda F,36.0
+Tobacco,2016-01-01,Hanafi,0.0
+Telecommunications,2016-01-01,Miro Mannino,0.0
+Telecommunications,2016-01-01,Nizar Habash,1104.0
+Restaurants,2016-01-01,Nasser Zalmout,21.0
+Media,2016-01-01,Salam Khalifa,10.0
+Tobacco,2016-01-01,Bashar Alhafni,0.0
+Beverages,2016-01-01,Talal Rahwan,216.0
+Media,2016-01-01,Marcin Waniek,7.0
+Telecommunications,2016-01-01,Talal Rahwan,216.0
+Telecommunications,2016-01-01,Yasir Zaki,212.0
+Tobacco,2016-01-01,Talal Ahmad,14.0
+Media,2016-01-01,Christina Pöpper,168.0
+Media,2016-01-01,Shujaat Mirza,0.0
+Business Services,2017-01-01,Azza Abouzied,194.0
+Telecommunications,2017-01-01,Maeda F,25.0
+Media,2017-01-01,Hanafi,2.0
+Telecommunications,2017-01-01,Miro Mannino,0.0
+Telecommunications,2017-01-01,Nizar Habash,1079.0
+Media,2017-01-01,Nasser Zalmout,65.0
+Tobacco,2017-01-01,Salam Khalifa,32.0
+Tobacco,2017-01-01,Bashar Alhafni,0.0
+Technology,2017-01-01,Talal Rahwan,212.0
+Beverages,2017-01-01,Marcin Waniek,12.0
+Diversified,2017-01-01,Talal Rahwan,212.0
+Automotive,2017-01-01,Yasir Zaki,198.0
+Diversified,2017-01-01,Talal Ahmad,15.0
+Restaurants,2017-01-01,Christina Pöpper,158.0
+Tobacco,2017-01-01,Shujaat Mirza,0.0
+Business Services,2018-01-01,Azza Abouzied,211.0
+Technology,2018-01-01,Maeda F,18.0
+Media,2018-01-01,Hanafi,10.0
+Automotive,2018-01-01,Miro Mannino,5.0
+Media,2018-01-01,Nizar Habash,1193.0
+Beverages,2018-01-01,Nasser Zalmout,70.0
+Business Services,2018-01-01,Salam Khalifa,53.0
+Media,2018-01-01,Bashar Alhafni,0.0
+Media,2018-01-01,Talal Rahwan,258.0
+Telecommunications,2018-01-01,Marcin Waniek,15.0
+Tobacco,2018-01-01,Talal Rahwan,258.0
+Telecommunications,2018-01-01,Yasir Zaki,142.0
+Technology,2018-01-01,Talal Ahmad,20.0
+Media,2018-01-01,Christina Pöpper,192.0
+Restaurants,2018-01-01,Shujaat Mirza,0.0
+Business Services,2019-01-01,Azza Abouzied,177.0
+Tobacco,2019-01-01,Maeda F,22.0
+Beverages,2019-01-01,Hanafi,6.0
+Telecommunications,2019-01-01,Miro Mannino,13.0
+Technology,2019-01-01,Nizar Habash,1169.0
+Beverages,2019-01-01,Nasser Zalmout,97.0
+Restaurants,2019-01-01,Salam Khalifa,67.0
+Technology,2019-01-01,Bashar Alhafni,2.0
+Technology,2019-01-01,Talal Rahwan,275.0
+Technology,2019-01-01,Marcin Waniek,39.0
+Restaurants,2019-01-01,Talal Rahwan,275.0
+Media,2019-01-01,Yasir Zaki,143.0
+Beverages,2019-01-01,Talal Ahmad,28.0
+Beverages,2019-01-01,Christina Pöpper,282.0
+Automotive,2019-01-01,Shujaat Mirza,1.0
+Business Services,2020-01-01,Azza Abouzied,145.0
+Media,2020-01-01,Maeda F,19.0
+Beverages,2020-01-01,Hanafi,6.0
+Restaurants,2020-01-01,Miro Mannino,18.0
+Diversified,2020-01-01,Nizar Habash,1009.0
+Business Services,2020-01-01,Nasser Zalmout,0.0
+Diversified,2020-01-01,Salam Khalifa,94.0
+Tobacco,2020-01-01,Bashar Alhafni,9.0
+Business Services,2020-01-01,Talal Rahwan,320.0
+Diversified,2020-01-01,Marcin Waniek,44.0
+Automotive,2020-01-01,Talal Rahwan,320.0
+Restaurants,2020-01-01,Yasir Zaki,90.0
+Beverages,2020-01-01,Talal Ahmad,20.0
+Beverages,2020-01-01,Christina Pöpper,244.0
+Automotive,2020-01-01,Shujaat Mirza,3.0

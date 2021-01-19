@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Header</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/inspector_b.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/inspector_c.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style_n.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Load d3.js and the geo projection plugin -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--link rel="stylesheet" href="styles.css"-->
+    <!-- Load d3.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>  
+    <script src="{{ url_for('static', filename= 'd3pie.min.js') }}"></script> 
+    <!-- Color scale -->
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal().reveal('.container', { delay: 1000 })
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+</head>
+
+<body> 
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/" autocapitalize="off">KnowMyProfessor.com</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/">Select Scool <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/">NYU</a></li>
+                <li><a href="/NYU_Shanghai">NYU Shanghai</a></li>
+                <li><a href="/NYU_AbuDhabi">NYU AbuDhabi</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/">Start Race <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/race/NYU">by yearly citation</a></li>
+                <li><a href="/race/NYU/total_">by total citation</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 center-block">
+              <h1>Everything about {{nname}} is here.</h1>
+          `</div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <h3> {{nname}}'s Citation over the years</h3>
+            <div  class="col-sm-12 center-block">
+              <svg id = "csvg"></svg>
+            </div>
+          </div>
+          <div class="row">
+            <h3> {{nname}}'s Citations by Publications </h3>
+            <div id="observablehq1"></div>
+            <div  class="col-sm-12 center-block">
+              <svg class = "asvg"></svg>
+              <script type="module">
+                import define from "{{ url_for('static', filename= 'js/index_b.js') }}";
+                import {Runtime, Library, Inspector} from "{{ url_for('static', filename= 'js/runtime_b.js') }}";
+              
+                const runtime = new Runtime();
+                const main = runtime.module(define, Inspector.into("#observablehq1"));
+              </script>
+            </div>
+          </div>
+
+          <div class="row">
+            <div  class="col-sm-6">
+              <h3>Ethnic Distribution of {{nname}}'s coauthors</h2>
+              <div class = "graph" id="my_dataviz"></div>
+            </div>
+            <div class="col-sm-6">
+              <h3>Gender Distribution of {{nname}}'s coauthors</h2>
+                <div class = "graph" id="pie_vis"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class = "row">
+            <div  class="col-sm-12 center-block">
+              <h3> World Locations of {{nname}}'s coauthors </h3>
+              <svg id="world_map" width="630" height="350"></svg>
+            </div>
+          </div>
+        </div>   
+
+
+        <!--script src="main.js"></script-->
+        <!-- Add 2 buttons -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    </div>
+    
+    
+    
+</body>
+
+</html>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script> 
+  var bandwidth = 30
+  d3version5 = d3
+  var margin = {top: 40, right: 30, bottom: 30, left: 50},
+      width = 1300 - margin.left - margin.right,
+      height = 320 - margin.top - margin.bottom;
+
+  var greyColor = "#898989";
+  var barColor = d3.interpolateInferno(0.4);
+  var highlightColor = "red";
+
+
+  var svg = d3.select("#csvg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  var dataset = {{ my_data2 | safe }};
+
+  dataset.forEach(d => {
+        d.year = +d.year;
+        d.value = +d.value;
+    });
+                        
+  var x = d3.scaleLinear()
+  .range([0,40])
+  .domain(dataset.map( d => { return d.year; }))
+  
+  var y = d3.scaleLinear()
+      .range([height, 0])
+      .domain([0, d3.max(dataset, d=>d.value)]);;
+
+  const xAxisTicks = x.ticks()
+      .filter(tick => Number.isInteger(tick));
+
+  var xAxis = d3.axisBottom(x).tickValues(xAxisTicks)
+    .tickFormat(d3.format('d'));
+  var yAxis = d3.axisLeft(y);
+
+  console.log("data")
+  console.log(dataset)
+
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+  svg.append("g")
+      .attr("class","y axis")
+      .call(yAxis);
+
+  svg.selectAll(".bar")
+      .data(dataset)
+      .enter().append("rect")
+      .attr("class", "citebar")
+      .attr('id', function(d,i) { 
+            return "b" + d.year.toString()
+            ;})
+      .style("display", d => { return d.value === null ? "none" : null; })
+      .style("fill",  d => { 
+          return d.value === d3.max(dataset,  d => { return d.value; }) 
+          ? highlightColor : barColor
+          })
+      .attr("x",  d => { return x(d.year); })
+      .attr("width", 30)
+          .attr("y",  d => { return height; })
+          .attr("height", 0)
+              .transition()
+              .duration(750)
+              .delay(function (d, i) {
+                  return i * 150;
+              })
+      .attr("y",  d => { return y(d.value); })
+      .attr("height",  d => { return height - y(d.value); })
+  svg.selectAll('.citebar')
+  .on("mouseover", function (d) {
+            d3.selectAll(".citec")
+              .attr("opacity", 0)
+            
+            d3.selectAll("#a" + d.year.toString())
+              .attr('color', 'blue')
+              .attr("opacity", 1)
+            d3.selectAll(".citebar")
+              .attr("opacity", 0.4)
+            d3.selectAll("#b" + d.year.toString())
+              .style("fill", "#a41022")
+              .attr("opacity", 1);
+            
+          })
+
+    .on("mouseout", function (d) {
+          d3.selectAll(".citec")
+            .attr("opacity", 1)
+          d3.selectAll(".citebar")
+              .attr("opacity", 1)
+            
+            d3.selectAll("#b" + d.year.toString())
+              .style("fill",  d => { 
+              return d.value === d3.max(dataset,  d => { return d.value; }) 
+              ? highlightColor : barColor
+              });
+            //d3.select(this).append('title').text(d=>d.title)
+          });;
+      
+
+  svg.selectAll(".label")        
+      .data(dataset)
+      .enter()
+      .append("text")
+      .attr("class", "label")
+      .style("display",  d => { return d.value === null ? "none" : null; })
+      .attr("x", ( d => { return x(d.year) + (30 / 2) - 10 ; }))
+          .style("fill",  d => { 
+              return d.value === d3.max(dataset,  d => { return d.value; }) 
+              ? highlightColor : greyColor
+              })
+      .attr("y",  d => { return height; })
+          .attr("height", 0)
+              .transition()
+              .duration(750)
+              .delay((d, i) => { return i * 150; })
+      .text( d => { return d.value; })
+      .attr("y",  d => { return y(d.value); })
+      .attr("dy", "-.7em"); 
+</script> 
+
+
+<script>
+  ScrollReveal().reveal('.container')
+</script>
+
+<script>
+  const graphData = {{ my_data.chart_data | safe }};
+  var tool = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+  // set the dimensions and margins of the graph
+  var margin = {top: 10, right: 30, bottom: 90, left: 40},
+      width = 460 - margin.left - margin.right,
+      height = 450 - margin.top - margin.bottom;
+  
+  // append the svg object to the body of the page
+  var svg = d3.select("#my_dataviz")
+    .append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+  
+  // X axis
+  var x = d3.scaleBand()
+    .range([ 0, width ])
+    .domain(graphData.map(function(d) { return d.Country; }))
+    .padding(0.2);
+  svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x))
+    .selectAll("text")
+      .attr("transform", "translate(-10,0)rotate(-45)")
+      .style("font-size", 15)
+      .style("text-anchor", "end");
+  
+  // Add Y axis
+  var y = d3.scaleLinear()
+    .domain([0, d3.max(graphData, (d)=> d.Value)])
+    .range([height, 0]);
+  svg.append("g")
+    .call(d3.axisLeft(y));
+  
+  // Bars
+  svg.selectAll("mybar")
+    .data(graphData)
+    .enter()
+    .append("rect")
+      .attr("x", function(d) { return x(d.Country); })
+      .attr("width", x.bandwidth())
+      .attr("class", "abab")
+      .attr("id", function(d) { return d.Country.replace(/\s/g, ""); })
+      .attr("fill", "#69b3a2")
+      // no bar at the beginning thus:
+      .attr("height", function(d) { return height - y(0); }) // always equal to 0
+      .attr("y", function(d) { return y(0); })
+      .on("mouseover", function(d,i){
+          d3.selectAll(".abab")
+          .style("opacity", 0.5);
+          console.log(i)
+          console.log(d)
+          d3.selectAll("#" + d.Country.replace(/\s/g, ""))
+          .style("fill", "red")
+          .style("opacity", 1);
+          tool.transition()
+                .duration(100)
+                .style("opacity", 1);
+   
+          tool.html("Google Image Search: " + d.Country)
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 15) + "px");
+      })
+      .on("mouseout", function(d,i){
+          d3.selectAll(".abab")
+          .style("fill", "#69b3a2")
+          .style("opacity", 1);
+          tool.transition()
+                .duration(100)
+                .style("opacity", 0);
+          
+      })
+      .on('click', function(d,i) {
+          window.open("http://image.google.com/search?q=" + d.Country + "&tbm=isch")
+    
+      });
+      
+  
+  // Animation
+  svg.selectAll("rect")
+    .transition()
+    .duration(800)
+    .attr("y", function(d) { return y(d.Value); })
+    .attr("height", function(d) { return height - y(d.Value); })
+    .delay(function(d,i){console.log(i) ; return(i*100)})
+    
+  
+  
+</script>
+
+
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<script>
+  d3version4 = d3
+  // The svg
+  var svg = d3.select("#world_map"),
+      width = +svg.attr("width"),
+      height = +svg.attr("height");
+  
+  // Map and projection
+  var projection = d3.geoMercator()
+      .center([0,20])                // GPS of location to zoom on
+      .scale(99)                       // This is like the zoom
+      .translate([ width/2, height/2 ])
+  
+  d3.queue()
+    .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")  // World shape
+    //.defer(d3.csv, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_gpsLocSurfer.csv") // Position of circles
+    .defer(d3.csv, "{{ url_for('static', filename= 'assets/data/coauthor.csv') }}")
+    .await(ready);
+  
+  function ready(error, dataGeo, data) {
+  
+    // Create a color scale
+  
+    // Add a scale for bubble size
+    //var valueExtent = d3.extent(data, function(d) { return +d.n; })
+    var size = d3.scaleSqrt()
+      //.domain(valueExtent)  // What's in the data
+      .domain([0, d3.max(data, (d) => d.n)])
+      .range([ 1, 35])  // Size in pixel
+  
+    // Draw the map
+    svg.append("g")
+        .selectAll("path")
+        .data(dataGeo.features)
+        .enter()
+        .append("path")
+          .attr("fill", "#b8b8b8")
+          .attr("d", d3.geoPath()
+              .projection(projection)
+          )
+        .style("stroke", "none")
+        .style("opacity", .3)
+  
+    // Add circles:
+    console.log(data)
+    svg
+      .selectAll("myCircles")
+      .data(data.sort(function(a,b) { return +b.n - +a.n }).filter(function(d,i){ return i<1000 }))
+      .enter()
+      .append("circle")
+        .attr("cx", function(d){ return projection([+d.homelon, +d.homelat])[0] })
+        .attr("cy", function(d){ return projection([+d.homelon, +d.homelat])[1] })
+        .attr("r", function(d){ return size(+d.n/10) })
+        .style("fill", function(d){ return "blue" })
+        .style("opacity", 0.7)
+        .attr("stroke", "black")
+        .attr("stroke-width", 1)
+        .attr("fill-opacity", .5)
+        
+      .on("mouseover", function(){
+          
+          d3.select(this)
+              .raise()
+              //.style("fill", "red")
+              .attr("fill-opacity", 1)
+              .transition()
+              .duration(500)
+              .attr("r", function(d){ return size(+d.n/4)})
+              .raise()
+              
+          
+        })
+      .on("mouseout", function(){
+          
+          d3.select(this)
+              .style("fill", function(d){ return "blue" })
+              .attr("fill-opacity", .6)
+              .transition()
+              .duration(500)
+              .attr("r", function(d){ return size(+d.n/10) })
+          
+      })
+      .append('title')
+      .text(d=>d.tooltip_name)
+      //.text(d=>d.tooltip_name)
+  
+  
+  
+    // Add title and explanation
+  
+  
+    // --------------- //
+    // ADD LEGEND //
+    // --------------- //
+  
+    // Add legend: circles
+    // var valuesToShow = [1,2,5]
+    // var xCircle = 70
+    // var xLabel = 140
+    // svg
+    //   .selectAll("legend")
+    //   .data(valuesToShow)
+    //   .enter()
+    //   .append("circle")
+    //     .attr("cx", xCircle)
+    //     .attr("cy", function(d){ return height - size(d) } )
+    //     .attr("r", function(d){ return size(d) })
+    //     .style("fill", "none")
+    //     .attr("stroke", "black")
+  
+    // Add legend: segments
+    // svg
+    //   .selectAll("legend")
+    //   .data(valuesToShow)
+    //   .enter()
+    //   .append("line")
+    //     .attr('x1', function(d){ return xCircle + size(d) } )
+    //     .attr('x2', xLabel)
+    //     .attr('y1', function(d){ return height - size(d) } )
+    //     .attr('y2', function(d){ return height - size(d) } )
+    //     .attr('stroke', 'black')
+    //     .style('stroke-dasharray', ('2,2'))
+  
+    // Add legend: labels
+    // svg
+    //   .selectAll("legend")
+    //   .data(valuesToShow)
+    //   .enter()
+    //   .append("text")
+    //     .attr('x', xLabel)
+    //     .attr('y', function(d){ return height - size(d) } )
+    //     .text( function(d){ return d } )
+    //     .style("font-size", 10)
+    //     .attr('alignment-baseline', 'middle')
+
+    
+  }
+  
+  </script>
+
+<script>
+  d3version4 = d3
+  var genderdata = [
+			{
+				"label": "Male",
+				"value": {{male_number}},
+				"color": "#db4c77"
+			},
+			{
+				"label": "Female",
+				"value": {{female_number}},
+				"color": "#67a3d9"
+			}]
+  var pie = new d3pie("pie_vis", {
+    "footer": {
+      "color": "#999999",
+      "fontSize": 10,
+      "font": "open sans",
+      "location": "bottom-left"
+    },
+    "size": {
+      "canvasWidth": 590,
+      "pieInnerRadius": "5%",
+      "pieOuterRadius": "90%"
+    },
+    "data": {
+      "sortOrder": "value-desc",
+      "content": genderdata
+    },
+    "labels": {
+      "outer": {
+        "pieDistance": 30
+      },
+      "mainLabel": {
+        "fontSize": 16
+      },
+      "percentage": {
+        "color": "#ffffff",
+        "fontSize": 30,
+        "decimalPlaces": 0
+      },
+      "value": {
+        "color": "#adadad",
+        "fontSize": 19
+      },
+      "lines": {
+        "enabled": true
+      },
+      "truncation": {
+        "enabled": true
+      }
+    },
+    "tooltips": {
+      "enabled": true,
+      "type": "placeholder",
+      "string": "{value} {label} Coauthors",
+      "styles": {
+        "backgroundOpacity": 0.49,
+        "borderRadius": 17,
+        "fontSize": 21
+      }
+    },
+    "effects": {
+      "pullOutSegmentOnClick": {
+        "effect": "linear",
+        "speed": 400,
+        "size": 12
+      }
+    },
+    "misc": {
+      "gradient": {
+        "enabled": true,
+        "percentage": 100
+      }
+    },
+    "callbacks": {}
+  });
+  </script>

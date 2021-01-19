@@ -1,0 +1,159 @@
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://103.76.50.195:80 https=http://103.76.50.195:80
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33 (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_get_record\', \'wrong version number\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33 (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_get_record\', \'wrong version number\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33 (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_get_record\', \'wrong version number\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33 (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_get_record\', \'wrong version number\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /scholar?hl=en&q=Computer%20networking%3A%20a%20top-down%20approach%20featuring%20the%20Internet&as_vis=0&as_sdt=0,33 (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_get_record\', \'wrong version number\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception while testing proxy: HTTPConnectionPool(host='45.9.229.28', port=3128): Max retries exceeded with url: http://assets.nflxext.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11af27eb8>: Failed to establish a new connection: [Errno 61] Connection refused',)))
+INFO:scholarly:Proxy http://45.9.229.28:3128 does not seem to work.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=A%20Music%20Classification%20model%20based%20on%20metric%20learning&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://84.247.51.123:3128 https=http://84.247.51.123:3128
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=A%20Music%20Classification%20model%20based%20on%20metric%20learning&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://84.247.51.123:3128', 'https': 'http://84.247.51.123:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://84.247.51.123:3128', 'https': 'http://84.247.51.123:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://84.247.51.123:3128', 'https': 'http://84.247.51.123:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://84.247.51.123:3128', 'https': 'http://84.247.51.123:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://84.247.51.123:3128', 'https': 'http://84.247.51.123:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://188.120.235.217:8118 https=http://188.120.235.217:8118
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=A%20Music%20Classification%20model%20based%20on%20metric%20learning&as_vis=0&as_sdt=0,33
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=A%20Music%20Classification%20model%20based%20on%20metric%20learning&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 503 Too many open connections',)))",),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=A%20Music%20Classification%20model%20based%20on%20metric%20learning&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 503 Too many open connections',)))",),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=A%20Music%20Classification%20model%20based%20on%20metric%20learning&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 503 Too many open connections',)))",),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=A%20Music%20Classification%20model%20based%20on%20metric%20learning&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 503 Too many open connections',)))",),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=A%20Music%20Classification%20model%20based%20on%20metric%20learning&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 503 Too many open connections',)))",),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://84.201.134.75:42069 https=http://84.201.134.75:42069
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert protocol version\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert protocol version\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert protocol version\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert protocol version\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert protocol version\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11af3f390>: Failed to establish a new connection: [Errno 61] Connection refused',)))",),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception SSLError while fetching page: (MaxRetryError('HTTPSConnectionPool(host=\'scholar.google.com\', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert protocol version\')],)",),))',),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))",),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11af276d8>: Failed to establish a new connection: [Errno 61] Connection refused',)))",),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /citations?hl=en&view_op=search_authors&mauthors=Angelo%20Cesar%20Mendes%20da%20Silva (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x107f9e160>: Failed to establish a new connection: [Errno 61] Connection refused',)))",),)
+INFO:scholarly:Retrying with a new session.

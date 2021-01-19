@@ -1,0 +1,51 @@
+year,size,distance,title
+2015.0,1,1510,Attention-based models for speech recognition
+2014.0,4,1028,Identifying and attacking the saddle point problem in high-dimensional non-convex optimization
+2015.0,5,848,Describing videos by exploiting temporal structure
+2014.0,2,834,On Using Very Large Target Vocabulary for Neural Machine Translation
+2014.0,4,750,How to Construct Deep Recurrent Neural Networks
+2014.0,3,746,On the Number of Linear Regions of Deep Neural Networks
+2016.0,1,715,Theano: A Python framework for fast computation of mathematical expressions
+2018.0,3,703,Recurrent neural networks for multivariate time series with missing values
+2015.0,3,629,Gated Feedback Recurrent Neural Networks
+2018.0,4,450,Unsupervised neural machine translation
+2016.0,1,404,Learning distributed representations of sentences from unlabelled data
+2016.0,1,398,"Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism"
+2017.0,3,358,On integrating a language model into neural machine translation
+2017.0,3,328,Nematus: a toolkit for neural machine translation
+2014.0,2,317,End-to-end continuous speech recognition using attention-based recurrent NN: First results
+2015.0,1,305,Describing multimedia content using attention-based encoder-decoder networks
+2017.0,1,298,Fully Character-Level Neural Machine Translation without Explicit Segmentation
+2017.0,3,296,Convolutional recurrent neural networks for music classification
+2016.0,1,292,A Character-level Decoder without Explicit Segmentation for Neural Machine Translation
+2014.0,1,267,Empirical evaluation of gated recurrent neural networks on sequence modeling. arXiv 2014
+2016.0,4,225,Joint event extraction via recurrent neural networks
+2011.0,1,222,Improved learning of Gaussian-Bernoulli restricted Boltzmann machines
+2011.0,2,222,Improved learning algorithms for restricted Boltzmann machines
+2015.0,1,191,Renet: A recurrent neural network based alternative to convolutional networks
+2019.0,4,189,Passage Re-ranking with BERT
+2016.0,3,185,Reseg: A recurrent neural network-based model for semantic segmentation
+2017.0,5,176,SearchQA: A new q&a dataset augmented with context from a search engine
+2016.0,1,169,Efficient character-level document classification by combining convolution and recurrent layers
+2017.0,4,164,Query-Efficient Imitation Learning for End-to-End Autonomous Driving
+2016.0,2,142,Zero-Resource Translation with Multi-Lingual Neural Machine Translation
+2018.0,4,138,Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement
+2019.0,5,136,QCD-aware recursive neural networks for jet physics
+2017.0,1,131,Transfer learning for music classification and regression tasks
+2015.0,4,131,Montreal neural machine translation systems for WMT’15
+2016.0,3,122,Learning to understand phrases by embedding the dictionary
+2011.0,4,122,Gaussian-bernoulli deep Boltzmann machine
+2018.0,3,121,Meta-Learning for Low-Resource Neural Machine Translation
+2014.0,4,117,Learned-norm pooling for deep feedforward and recurrent neural networks
+2018.0,2,116,Boundary Seeking GANs
+2017.0,2,113,The representational geometry of word meanings acquired by neural machine translation models
+2017.0,5,113,Learning to parse and translate improves neural machine translation
+2017.0,3,105,High-resolution breast cancer screening with multi-view deep convolutional neural networks
+2010.0,1,100,Parallel tempering is efficient for learning restricted Boltzmann machines
+2016.0,1,94,Larger-Context Language Modelling
+2017.0,3,92,Task-oriented query reformulation with reinforcement learning
+2015.0,1,92,Learning distributed representations from reviews for collaborative filtering
+2011.0,4,89,Enhanced gradient and adaptive learning rate for training restricted Boltzmann machines
+2019.0,3,83,"BERT has a mouth, and it must speak: BERT as a Markov random field language model"
+2019.0,1,80,Deep neural networks improve radiologists’ performance in breast cancer screening
+2016.0,5,80,Gated Word-Character Recurrent Language Model
