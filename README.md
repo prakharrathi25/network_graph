@@ -17,4 +17,4 @@ The goal of this project is to reduce the time students spend on looking into di
 
 ## Project Demo
 
-[![project demo](https://github.com/CinnyLin/network_graph/blob/master/project_demo.jpg)](https://youtu.be/PPXMWuZRhHY)
+[![project demo](https://github.com/CinnyLin/network_graph/blob/main/project_demo.jpg)](https://youtu.be/PPXMWuZRhHY)
