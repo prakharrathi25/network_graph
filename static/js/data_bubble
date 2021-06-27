@@ -1,51 +1,51 @@
 year,size,distance,title
-2012.0,2,1284,Wisdom of crowds for robust gene network inference
-2012.0,1,917,The mRNA-bound proteome and its global occupancy profile on protein-coding transcripts
-2015.0,3,862,Tweeting from left to right: Is online political communication more than an echo chamber?
-2012.0,3,832,A validated regulatory network for Th17 cell specification
-2010.0,3,711,Innate immune detection of the type III secretion apparatus through the NLRC4 inflammasome
-2006.0,1,555,The Inferelator: an algorithm for learning parsimonious regulatory networks from systems-biology data sets de novo
-2015.0,3,480,Sparse and compositionally robust inference of microbial ecological networks
-2009.0,2,445,Structural bioinformatics
-2001.0,2,399,Ab initio protein structure prediction: progress and prospects
-2017.0,2,367,The Rosetta all-atom energy function for macromolecular modeling and design
-2001.0,3,359,Rosetta in CASP4: progress in ab initio protein structure prediction
-2004.0,1,350,Genome sequence of Haloarcula marismortui: a halophilic archaeon from the Dead Sea
-2015.0,4,329,An IL-23R/IL-22 circuit regulates epithelial serum amyloid A to promote local effector Th17 responses
-2003.0,2,328,Automated prediction of CASP‐5 structures using the Robetta server
-2007.0,3,312,A predictive model for transcriptional control of physiology in a free living cell
-2002.0,2,310,De novo prediction of three-dimensional structures for major protein families
-2006.0,1,293,Integrated biclustering of heterogeneous genome-wide datasets for the inference of global regulatory networks
-2016.0,3,252,An expanded evaluation of protein function prediction methods shows an improvement in accuracy
-2014.0,3,248,CX3CR1+ mononuclear phagocytes support colitis-associated innate lymphoid cell production of IL-22
-2016.0,2,238,Helminth infection promotes colonization resistance via type 2 immunity
-2014.0,2,237,ICOS-based chimeric antigen receptors program bipolar TH17/TH1 cells
-2013.0,1,233,Serverification of molecular modeling applications: the Rosetta Online Server that Includes Everyone (ROSIE)
-2014.0,3,230,Helminth colonization is associated with increased diversity of the gut microbiota
-2007.0,3,210,Somatodendritic microRNAs identified by laser capture and multiplex RT-PCR
-2010.0,3,203,DREAM4: Combining genetic and dynamic information to identify biological networks and dynamical models
-2015.0,3,201,The critical periphery in the growth of social protests
-2008.0,1,201,A protein domain-based interactome network for C. elegans early embryogenesis
-2003.0,1,196,An improved protein decoy set for testing energy functions for protein structure prediction
-2007.0,3,192,A conserved surface on Toll-like receptor 5 recognizes bacterial flagellin
-2016.0,2,190,Accurate de novo design of hyperstable constrained peptides
-2006.0,1,190,The Gaggle: an open-source software system for integrating bioinformatics software and data sources
-2004.0,4,176,Systems level insights into the stress response to UV radiation in the halophilic archaeon Halobacterium NRC-1
-2018.0,3,172,c-MAF-dependent regulatory T cells mediate immunological tolerance to a gut pathobiont
-2015.0,5,170,Political expression and action on social media: Exploring the relationship between lower-and higher-threshold political activities among Twitter users in Italy
-2016.0,2,168,Inferring causal molecular networks: empirical assessment through a community-based effort
-2008.0,2,162,Oligo(N-aryl glycines): A New Twist on Structured Peptoids
-2015.0,1,143,DDX5 and its associated lncRNA Rmrp modulate TH17 cell effector functions
-2008.0,1,143,Learning biological networks: from modules to dynamics
-2002.0,1,135,Contact order and ab initio protein structure prediction
-2007.0,2,130,General transcription factor specified global gene regulation in archaea
-2018.0,4,127,"How social media facilitates political protest: Information, motivation, and social networks"
-2013.0,3,127,Robust data-driven incorporation of prior knowledge into the inference of dynamic regulatory networks
-2013.0,4,124,A physical sciences network characterization of non-tumorigenic and metastatic cells
-2013.0,1,124,Social media and political communication. A survey of Twitter users during the 2013 Italian general election
-2015.0,3,122,An experimentally supported model of the Bacillus subtilis global transcriptional regulatory network
-2018.0,2,117,Why are there hotspot mutations in the TP53 gene in human cancers?
-2001.0,2,114,Improving the performance of Rosetta using multiple sequence alignment information and global measures of hydrophobic core formation
-2019.0,5,110,High-definition spatial transcriptomics for in situ tissue profiling
-2009.0,3,106,A preliminary survey of the peptoid folding landscape
-2010.0,1,104,DREAM3: network inference using dynamic context likelihood of relatedness and the inferelator
+2010.0,5,703,Introduction to Arabic natural language processing
+2005.0,4,558,"Arabic tokenization, part-of-speech tagging and morphological disambiguation in one fell swoop"
+2014.0,2,540,"Madamira: A fast, comprehensive tool for morphological analysis and disambiguation of arabic."
+2009.0,3,403,"MADA+ TOKAN: A toolkit for Arabic tokenization, diacritization, morphological disambiguation, POS tagging, stemming and lemmatization"
+2006.0,4,284,Arabic preprocessing schemes for statistical machine translation
+2007.0,1,241,On arabic transliteration
+2017.0,1,219,Universal dependencies 2.0
+2017.0,3,175,Universal Dependencies 2.1
+2008.0,1,175,"Arabic morphological tagging, diacritization, and lemmatization using lexeme models and feature ranking"
+2006.0,3,166,MAGEAD: a morphological analyzer and generator for the Arabic dialects
+2009.0,2,154,Spoken Arabic dialect identification using phonotactic modeling
+2013.0,3,151,Overview of the SPMRL 2013 Shared Task: Cross-Framework Evaluation of Parsing Morphologically Rich Languages
+2012.0,1,151,Conventional Orthography for Dialectal Arabic.
+2007.0,3,143,Arabic diacritization through full morphological tagging
+2010.0,3,136,Morphological Annotation of Quranic Arabic.
+2014.0,2,133,A large scale Arabic sentiment lexicon for Arabic opinion mining
+2013.0,3,127,Morphological analysis and disambiguation for dialectal Arabic
+2009.0,2,123,Catib: The columbia arabic treebank
+2006.0,2,119,Online arabic handwriting recognition using hidden markov models
+2012.0,3,118,A morphological analyzer for Egyptian Arabic
+2006.0,3,117,Parsing Arabic Dialects.
+2003.0,3,117,A categorial variation database for English
+2008.0,1,114,Four techniques for online handling of out-of-vocabulary words in Arabic-English statistical machine translation
+2007.0,3,112,Syntactic preprocessing for statistical machine translation
+2006.0,1,101,Combination of Arabic preprocessing schemes for statistical machine translation
+2014.0,3,88,A Multidialectal Parallel Corpus of Arabic
+2011.0,1,88,Dialectal to standard Arabic paraphrasing to improve Arabic-English statistical machine translation
+2010.0,1,88,COLABA: Arabic dialect annotation and processing
+2007.0,2,86,Arabic morphological representations for machine translation
+2010.0,3,81,Orthographic and Morphological Processing for English-Arabic Statistical Machine Translation
+2014.0,3,77,Large Scale Arabic Error Annotation: Guidelines and Framework
+2004.0,2,77,Large scale lexeme based arabic morphological generation
+2013.0,5,75,Supervised collaboration for syntactic annotation of Quranic Arabic
+2002.0,3,73,Handling translation divergences: Combining statistical and symbolic techniques in generation-heavy machine translation
+2009.0,3,70,Syntactic annotation in the Columbia Arabic treebank
+2005.0,2,70,Morphological analysis and generation for Arabic dialects
+2014.0,2,66,Automatic transliteration of romanized dialectal Arabic
+2004.0,2,66,The use of a structural n-gram language model in generation-heavy hybrid machine translation
+2014.0,2,64,The Illinois-Columbia system in the CoNLL-2014 shared task
+2007.0,4,64,Arabic dialect processing tutorial
+2014.0,2,63,A Conventional Orthography for Tunisian Arabic.
+2015.0,5,62,A conventional orthography for Algerian Arabic
+2007.0,1,62,Arabic diacritization in the context of statistical machine translation
+2018.0,1,59,The madar arabic dialect corpus and lexicon
+2013.0,1,59,Dependency parsing of Modern Standard Arabic with lexical and inflectional features
+2009.0,1,59,Improving the Arabic pronunciation dictionary for phone and word recognition with linguistically-based pronunciation rules
+2009.0,3,57,Improving Arabic-Chinese statistical machine translation using English as pivot language
+2014.0,3,55,The first QALB shared task on automatic text correction for Arabic
+2010.0,2,54,Improving Arabic dependency parsing with inflectional and lexical morphological features
+2001.0,2,54,LCS verb database
